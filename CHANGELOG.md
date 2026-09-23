@@ -14,6 +14,26 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Promote the value-stream/ stubs to executable Python tests in a future CR-ES-003 conformance PR.
 - Profile conformance extension (cross-record checks, CR-ES-AG-012).
 
+## [0.4.0] ; 2026-09-23 ; VS-D2a ;; 12 AVS-CON-001..012 conformance rules + 10 negative tests for Agentic Value Stream per CR-ES-005 §21 + §22 + ADR-ES-005 §17
+
+### Added
+
+- tests/agentic-value-stream/README.md ;;; test group index covering all 12 AVS-CON-001..012 conformance rules + 10 negative tests per CR-ES-005 §21 + §22
+- tests/agentic-value-stream/schema.md ;;; AVS-CON-001 + AVS-CON-002 + `AI is-a Agentic Value Stream` negative test
+- tests/agentic-value-stream/identity.md ;;; identity uniqueness + format + specialisation validation + profile binding validation
+- tests/agentic-value-stream/lifecycle.md ;;; AVS-CON-003 + AVS-CON-004 (initiating-condition + realisation-boundary retention)
+- tests/agentic-value-stream/relationships.md ;;; AVS-CON-005 + AVS-CON-006 + AVS-CON-007 + reference resolution
+- tests/agentic-value-stream/boundaries.md ;;; AVS-CON-008 + AVS-CON-009 + AVS-CON-010 + 4 negative tests
+- tests/agentic-value-stream/provenance.md ;;; AVS-CON-012 ;;; grounding + mappings presence
+- tests/agentic-value-stream/grounding.md ;;; ES-canonical novelty ;; Tier 2 Specialisation per FND-ES-AG-008 §1.3
+- tests/agentic-value-stream/examples.md ;;; OTCHERE Inc demonstration tests + 5 negative example tests
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere on all 9 files
+- D-004 clean ;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+
 ## [0.3.0] ; 2026-09-23 ; VS-D2a Agentic test stubs
 
 ### Added
