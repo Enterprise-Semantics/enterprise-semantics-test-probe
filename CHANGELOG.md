@@ -14,6 +14,32 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Promote the value-stream/ stubs to executable Python tests in a future CR-ES-003 conformance PR.
 - Profile conformance extension (cross-record checks, CR-ES-AG-012).
 
+## [0.3.0] ; 2026-09-23 ; VS-D2a Agentic test stubs
+
+### Added
+
+- `tests/agent/README.md` ;;; test group index covering all 13 AG-CON-001..013 conformance rules from CR-ES-004 §26 + 5 negative tests per §27.
+- `tests/agent/schema.md` ;;; AG-CON-001 (Agent definition), AG-CON-002 (Agentic definition) ;;; + negative test for `AI is-a Agent` per CR-ES-004 §27.
+- `tests/agent/identity.md` ;;; identity uniqueness + format tests ;;; subject_type alignment with concept identities per CR-ES-004 §10.
+- `tests/agent/lifecycle.md` ;;; AG-CON-011 (Agentic Value Stream not canonical), AG-CON-012 (Agentic Workflow not canonical), AG-CON-013 (Autonomous concepts not canonical) per CR-ES-004 §3 + §26.
+- `tests/agent/relationships.md` ;;; AG-CON-007 (Agent acts-within Authority), AG-CON-008 (Agentic has Intent), AG-CON-009 (Agentic supports Action Selection), AG-CON-010 (Agentic is outcome-oriented) ;;; + reference resolution tests.
+- `tests/agent/boundaries.md` ;;; AG-CON-003 (Agentic characteristics), AG-CON-004 (Agentic != AI), AG-CON-005 (Agentic != Automation), AG-CON-006 (Agentic != Autonomous) ;;; + negative tests for `Agentic is-a Autonomous` and `Automation is-a Agentic`.
+- `tests/agent/provenance.md` ;;; non-empty provenance + governing artefact citations (CR-ES-004 + ADR-ES-004 + FND-ES-AG-008).
+- `tests/agent/grounding.md` ;;; ES-canonical novelty ;;; no WSF Tier 1 or Tier 2 equivalent ;;; grounding entries document the absence.
+- `tests/agent/examples.md` ;;; OTCHERE Inc Customer Service Agent demonstration tests ;;; 6/6 characteristics + 8+/11 predicates + human escalation + OTCHERE Inc naming ;;; + negative example tests.
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere on all 9 files
+- D-004 clean ;;; 0 forbidden glyphs on all 9 files
+- No vendor-specific material from embargoed sources
+
+### Held non-actions
+
+- Tests remain markdown stubs (Python test promotion is held for a future CR)
+- No executable Python harness added
+- No CI wiring changes (test-probe already wired as a CI gate by upstream CRs)
+
 ## [0.2.0] ; 2026-09-23 ; VS-D2a Value Stream test stubs
 
 ### Added
