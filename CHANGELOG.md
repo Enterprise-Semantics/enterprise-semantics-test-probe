@@ -14,6 +14,28 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Promote the value-stream/ stubs to executable Python tests in a future CR-ES-003 conformance PR.
 - Profile conformance extension (cross-record checks, CR-ES-AG-012).
 
+## [0.7.0] ; 2026-09-23 ; VS-D2a ;;; 17 AOP-AUTO-CON-001..017 Autonomous Operations conformance rules + 12 negative tests + 7 autonomy integrity tests per CR-ES-008 §24 + §25 + §28 + ADR-ES-008 §22
+
+### Added
+
+- tests/autonomous-operations/README.md
+- tests/autonomous-operations/schema.md
+- tests/autonomous-operations/identity.md
+- tests/autonomous-operations/lifecycle.md
+- tests/autonomous-operations/relationships.md
+- tests/autonomous-operations/boundaries.md
+- tests/autonomous-operations/provenance.md
+- tests/autonomous-operations/grounding.md
+- tests/autonomous-operations/examples.md
+- tests/autonomous-operations/autonomy-integrity.md
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere on all 10 files
+- D-004 clean ;;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+- Per CR-ES-008 §24 + §25 + §28 + ADR-ES-008 §22
+
 ## [0.6.0] ; 2026-09-23 ; VS-D2a ;;; 15 AOP-CON-001..015 Agentic Operations conformance rules + 12 negative tests per CR-ES-007 §23 + §24 + ADR-ES-007 §27
 
 ### Added
