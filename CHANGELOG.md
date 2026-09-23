@@ -36,6 +36,28 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - No vendor-specific material from embargoed sources
 - Per CR-ES-008 §24 + §25 + §28 + ADR-ES-008 §22
 
+## [0.8.0] ; 2026-09-23 ; VS-D2a ;;; 19 AVS-AUTO-CON-001..019 Autonomous Value Stream conformance rules + 12 negative tests + 6-field autonomy integrity test per CR-ES-009 §25 + §26 + §28 + ADR-ES-009 §22
+
+### Added
+
+- tests/autonomous-value-stream/README.md
+- tests/autonomous-value-stream/schema.md
+- tests/autonomous-value-stream/identity.md
+- tests/autonomous-value-stream/lifecycle.md
+- tests/autonomous-value-stream/relationships.md
+- tests/autonomous-value-stream/boundaries.md
+- tests/autonomous-value-stream/provenance.md
+- tests/autonomous-value-stream/grounding.md
+- tests/autonomous-value-stream/examples.md
+- tests/autonomous-value-stream/autonomy-integrity.md
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere on all 10 files
+- D-004 clean ;;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+- Per CR-ES-009 §25 + §26 + §28 + ADR-ES-009 §22
+
 ## [0.6.0] ; 2026-09-23 ; VS-D2a ;;; 15 AOP-CON-001..015 Agentic Operations conformance rules + 12 negative tests per CR-ES-007 §23 + §24 + ADR-ES-007 §27
 
 ### Added
