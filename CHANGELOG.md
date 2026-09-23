@@ -14,6 +14,27 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Promote the value-stream/ stubs to executable Python tests in a future CR-ES-003 conformance PR.
 - Profile conformance extension (cross-record checks, CR-ES-AG-012).
 
+## [0.5.0] ; 2026-09-23 ; VS-D2a ;;; 14 AWF-CON-001..014 Agentic Workflow conformance rules + 10 negative tests per CR-ES-006 §28 + §29 + ADR-ES-006 §23
+
+### Added
+
+- tests/agentic-workflow/README.md
+- tests/agentic-workflow/schema.md
+- tests/agentic-workflow/identity.md
+- tests/agentic-workflow/lifecycle.md
+- tests/agentic-workflow/relationships.md
+- tests/agentic-workflow/boundaries.md
+- tests/agentic-workflow/provenance.md
+- tests/agentic-workflow/grounding.md
+- tests/agentic-workflow/examples.md
+
+### Cardinal rules
+
+- Author: Emmanuel A. Otchere on all 9 files
+- D-004 clean ;;; 0 forbidden glyphs
+- No vendor-specific material from embargoed sources
+- Per CR-ES-006 §28 + §29 + ADR-ES-006 §23
+
 ## [0.4.0] ; 2026-09-23 ; VS-D2a ;; 12 AVS-CON-001..012 conformance rules + 10 negative tests for Agentic Value Stream per CR-ES-005 §21 + §22 + ADR-ES-005 §17
 
 ### Added
