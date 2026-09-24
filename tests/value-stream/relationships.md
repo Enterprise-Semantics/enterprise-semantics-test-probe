@@ -17,7 +17,7 @@ INVALID (missing realizes relationship):
 
 VS-CON-013: Every Value Stream predicate must exist in the relationship vocabulary.
 
-VALID (predicate in vocabulary ;;; per CR-ES-003 §9 + vocabulary.yaml v0.2.0):
+VALID (predicate in vocabulary, per CR-ES-003 §9 + vocabulary.yaml v0.2.0):
   - subject: ES:CONCEPT:value-stream:order-to-cash
     predicate: realizes
     object: external:concept:stakeholder-value
@@ -40,9 +40,9 @@ VALID (predicate in vocabulary ;;; per CR-ES-003 §9 + vocabulary.yaml v0.2.0):
 
 INVALID (predicate not in vocabulary):
   - subject: ES:CONCEPT:value-stream:order-to-cash
-    predicate: delivers-value ;;; not in the 13 governed predicates
+    predicate: delivers-value, not in the 13 governed predicates
     object: external:concept:stakeholder-value
 
-Reference: relationships/vocabulary.yaml v0.2.0 ;;; 13 governed predicates for Value Stream.
+Reference: relationships/vocabulary.yaml v0.2.0, 13 governed predicates for Value Stream.
 
 This test group is a stub. Implementation lands via CR-ES-003 conformance PR.

@@ -2,7 +2,7 @@
 
 ## OTCHERE Inc Fulfillment Operations (Agentic Operations)
 
-Per CR-ES-007 §21 ;;; the foundational example demonstrates:
+Per CR-ES-007 §21, the foundational example demonstrates:
 
 - 10 operational loop steps
 - 5 operational context elements

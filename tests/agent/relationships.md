@@ -1,8 +1,8 @@
 # Relationships tests for Agent + Agentic
 
-## AG-CON-007 ;;; Agent must have an authority relationship when modeled as acting agentically
+## AG-CON-007, Agent must have an authority relationship when modeled as acting agentically
 
-Per CR-ES-004 §26 ;;; if a concept record declares an Agent that operates agentically, the Agent MUST have an `acts-within` relationship to a defined Authority.
+Per CR-ES-004 §26, if a concept record declares an Agent that operates agentically, the Agent MUST have an `acts-within` relationship to a defined Authority.
 
 Test:
 
@@ -18,9 +18,9 @@ def test_agent_authority_relationship(agent_record):
         ), 'Agent modeled as acting agentically must have acts-within authority relationship'
 ```
 
-## AG-CON-008 ;;; Agentic execution must have an intent or objective
+## AG-CON-008, Agentic execution must have an intent or objective
 
-Per CR-ES-004 §26 ;;; an Agentic execution MUST include an Intent or objective ;;; the Agent MUST have an `interprets` or `receives` relationship to an Intent.
+Per CR-ES-004 §26, an Agentic execution MUST include an Intent or objective, the Agent MUST have an `interprets` or `receives` relationship to an Intent.
 
 Test:
 
@@ -35,9 +35,9 @@ def test_agentic_has_intent(agentic_record):
     ), 'Agentic execution must have an intent or objective'
 ```
 
-## AG-CON-009 ;;; Agentic execution must support action selection
+## AG-CON-009, Agentic execution must support action selection
 
-Per CR-ES-004 §26 ;;; Agentic execution MUST support Action Selection ;;; the Agent MUST have a `selects` relationship to an Action.
+Per CR-ES-004 §26, Agentic execution MUST support Action Selection, the Agent MUST have a `selects` relationship to an Action.
 
 Test:
 
@@ -51,9 +51,9 @@ def test_agentic_action_selection(agent_record):
     ), 'Agentic execution must support action selection'
 ```
 
-## AG-CON-010 ;;; Agentic execution must be outcome-oriented
+## AG-CON-010, Agentic execution must be outcome-oriented
 
-Per CR-ES-004 §26 ;;; Agentic execution MUST be outcome-oriented ;;; the Agent MUST have an `agent-produces` (or equivalent) relationship to an Outcome.
+Per CR-ES-004 §26, Agentic execution MUST be outcome-oriented, the Agent MUST have an `agent-produces` (or equivalent) relationship to an Outcome.
 
 Test:
 
@@ -69,7 +69,7 @@ def test_agentic_outcome_oriented(agent_record):
 
 ## Reference resolution
 
-Per CR-ES-004 §25 ;;; references must resolve. Test:
+Per CR-ES-004 §25, references must resolve. Test:
 
 ```python
 def test_relationships_resolve(agent_record):

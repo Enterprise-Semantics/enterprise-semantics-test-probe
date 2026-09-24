@@ -1,22 +1,22 @@
 # Lifecycle tests for Agent + Agentic
 
-## AG-CON-011 ;;; Agentic Value Stream must not be canonicalized
+## AG-CON-011, Agentic Value Stream must not be canonicalized
 
-Per CR-ES-004 §26 + §3 ;;; the Agentic Value Stream concept MUST NOT appear in this CR's vocabulary as a canonical concept. The specialization is governed by prospective ADR-ES-005.
+Per CR-ES-004 §26 + §3, the Agentic Value Stream concept MUST NOT appear in this CR's vocabulary as a canonical concept. The specialization is governed by prospective ADR-ES-005.
 
 Test:
 
 ```python
 def test_agentic_value_stream_not_canonical():
-    # ;;; the vocabulary + concept records must not declare Agentic Value Stream as canonical
+    #, the vocabulary + concept records must not declare Agentic Value Stream as canonical
     canonical_concepts = collect_concept_ids()
     assert 'ES:CONCEPT:agentic-value-stream' not in canonical_concepts
     assert 'ES:CONCEPT:agentic_value_stream' not in canonical_concepts
 ```
 
-## AG-CON-012 ;;; Agentic Workflow must not be canonicalized
+## AG-CON-012, Agentic Workflow must not be canonicalized
 
-Per CR-ES-004 §26 + §3 ;;; the Agentic Workflow concept MUST NOT appear in this CR's vocabulary as a canonical concept. The specialization is governed by prospective ADR-ES-006.
+Per CR-ES-004 §26 + §3, the Agentic Workflow concept MUST NOT appear in this CR's vocabulary as a canonical concept. The specialization is governed by prospective ADR-ES-006.
 
 Test:
 
@@ -27,9 +27,9 @@ def test_agentic_workflow_not_canonical():
     assert 'ES:CONCEPT:agentic_workflow' not in canonical_concepts
 ```
 
-## AG-CON-013 ;;; Autonomous concepts must not be canonicalized
+## AG-CON-013, Autonomous concepts must not be canonicalized
 
-Per CR-ES-004 §26 + §3 ;;; no Autonomous-related concept (Autonomous Agent, Autonomous Enterprise, Autonomous Operations, Autonomous Value Stream) MUST be canonicalized by this CR. Autonomous semantics is established by separate governance (ADR-ES-007 family).
+Per CR-ES-004 §26 + §3, no Autonomous-related concept (Autonomous Agent, Autonomous Enterprise, Autonomous Operations, Autonomous Value Stream) MUST be canonicalized by this CR. Autonomous semantics is established by separate governance (ADR-ES-007 family).
 
 Test:
 

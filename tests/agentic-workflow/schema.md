@@ -2,7 +2,7 @@
 
 ## AWF-CON-001 ;; Agentic Workflow specialises Workflow
 
-Per CR-ES-006 §21 + §28 + ADR-ES-006 §2 + §18 + §23 ;;; the
+Per CR-ES-006 §21 + §28 + ADR-ES-006 §2 + §18 + §23, the
 Agentic Workflow concept record MUST declare a direct
 specialisation of Workflow.
 
@@ -23,7 +23,7 @@ def test_awf_specialization_predicate():
 
 ## AWF-CON-002 ;; Agentic Workflow retains Workflow semantics
 
-Per CR-ES-006 §5 + ADR-ES-006 §5 ;;; Agentic Workflow MUST inherit
+Per CR-ES-006 §5 + ADR-ES-006 §5, Agentic Workflow MUST inherit
 the Workflow semantics rather than redefine Workflow.
 
 Test:
@@ -42,7 +42,7 @@ def test_awf_inherits_workflow_semantics():
 
 ## AWF-CON-014 ;; Agentic Workflow preserves grounding and provenance
 
-Per CR-ES-006 §21 + ADR-ES-006 §23 ;;; the Agentic Workflow concept
+Per CR-ES-006 §21 + ADR-ES-006 §23, the Agentic Workflow concept
 record MUST carry:
 
 - `governance:` top-level field

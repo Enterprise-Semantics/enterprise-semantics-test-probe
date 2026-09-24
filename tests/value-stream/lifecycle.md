@@ -22,6 +22,6 @@ VALID:
 
 INVALID (lifecycle value not in registry):
   id: ES:CONCEPT:value-stream:order-to-cash
-  status: DRAFT ;;; not a registered lifecycle state
+  status: DRAFT, not a registered lifecycle state
 
 This test group is a stub. Implementation lands via CR-ES-003 conformance PR.
