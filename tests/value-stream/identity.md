@@ -31,11 +31,11 @@ VALID:
 
 VS-ID-005: A fundamentally different value journey requires a distinct Value Stream identity.
 
-VALID (different journey ;;; different identity):
+VALID (different journey, different identity):
   id: ES:CONCEPT:value-stream:hire-to-retire
   definition: An end-to-end sequence covering hiring through retirement.
 
-INVALID (same journey ;;; different identity ;;; violation of VS-ID-005):
+INVALID (same journey, different identity, violation of VS-ID-005):
   id: ES:CONCEPT:value-stream:order-to-fulfilment
   definition: Same as order-to-cash.
 

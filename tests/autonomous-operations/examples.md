@@ -2,7 +2,7 @@
 
 ## OTCHERE Inc Fulfillment Autonomous Operations
 
-Per CR-ES-008 §23 ;;; the foundational example demonstrates:
+Per CR-ES-008 §23, the foundational example demonstrates:
 
 - 10 autonomous operational loop steps
 - 7 escalation boundaries

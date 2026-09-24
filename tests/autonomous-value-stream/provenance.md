@@ -2,7 +2,7 @@
 
 ## AVS-AUTO-CON-019 ;; Autonomous Value Stream preserves grounding and provenance
 
-Per CR-ES-009 §25 + ADR-ES-009 §22 ;;; the Autonomous Value Stream
+Per CR-ES-009 §25 + ADR-ES-009 §22, the Autonomous Value Stream
 concept record MUST carry complete grounding and provenance.
 
 Test:
@@ -21,7 +21,7 @@ def test_avs_grounding_field():
 
 def test_avs_no_supersession_required():
     record = load_concept('autonomous-value-stream')
-    # No prior Phase 1 record existed ;;; no supersession required
+    # No prior Phase 1 record existed, no supersession required
     pass
 ```
 

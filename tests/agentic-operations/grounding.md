@@ -2,9 +2,9 @@
 
 ## ES-canonical novelty ;; Tier 2 Specialisation
 
-Per FND-ES-AG-008 §1.3 ;;; Agentic Operations is Tier 2 Specialisation:
-WSF Tier 1 Activity grounds Operations ;;; WSF Tier 1 Operations
-grounds Agentic Operations ;;; Agentic Operations adds ES-canonical
+Per FND-ES-AG-008 §1.3, Agentic Operations is Tier 2 Specialisation:
+WSF Tier 1 Activity grounds Operations, WSF Tier 1 Operations
+grounds Agentic Operations, Agentic Operations adds ES-canonical
 novelty.
 
 Test:

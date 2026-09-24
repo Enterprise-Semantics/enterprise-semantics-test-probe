@@ -2,7 +2,7 @@
 
 ## AOP-CON-005 ;; Agentic Operations is outcome-oriented
 
-Per CR-ES-007 §7 + §23 + ADR-ES-007 §18 + §19 + §27 ;;; the
+Per CR-ES-007 §7 + §23 + ADR-ES-007 §18 + §19 + §27, the
 Agentic Operations concept record MUST have an `operational_intent`
 property of type `reference` with `required: true`.
 
@@ -20,7 +20,7 @@ def test_aop_operational_intent_required():
 
 ## AOP-CON-003 ;; Agentic Operations operates within defined authority
 
-Per CR-ES-007 §7 + §23 + ADR-ES-007 §6.7 + §19 ;;; the Agentic
+Per CR-ES-007 §7 + §23 + ADR-ES-007 §6.7 + §19, the Agentic
 Operations concept record MUST have an `authority_context` property
 of type `reference` with `required: true`.
 
@@ -38,7 +38,7 @@ def test_aop_authority_context_required():
 
 ## AOP-CON-004 ;; Operational behavior governed by policies
 
-Per CR-ES-007 §7 + §23 + ADR-ES-007 §6.7 ;;; the Agentic Operations
+Per CR-ES-007 §7 + §23 + ADR-ES-007 §6.7, the Agentic Operations
 concept record MUST have a `policy_context` property of type
 `reference` with `required: true`.
 
