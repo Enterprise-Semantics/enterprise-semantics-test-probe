@@ -2,9 +2,9 @@
 
 ## ES-canonical novelty ;; Tier 2 Specialisation
 
-Per FND-ES-AG-008 §1.3 ;;; Autonomous Value Stream is Tier 2 Specialisation:
-WSF Tier 1 Activity grounds Value Stream ;;; WSF Tier 1 Value Stream
-grounds Autonomous Value Stream ;;; Autonomous Value Stream adds
+Per FND-ES-AG-008 §1.3, Autonomous Value Stream is Tier 2 Specialisation:
+WSF Tier 1 Activity grounds Value Stream, WSF Tier 1 Value Stream
+grounds Autonomous Value Stream, Autonomous Value Stream adds
 ES-canonical novelty.
 
 Test:

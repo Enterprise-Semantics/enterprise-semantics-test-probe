@@ -14,7 +14,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Promote the value-stream/ stubs to executable Python tests in a future CR-ES-003 conformance PR.
 - Profile conformance extension (cross-record checks, CR-ES-AG-012).
 
-## [0.7.0] ; 2026-09-23 ; VS-D2a ;;; 17 AOP-AUTO-CON-001..017 Autonomous Operations conformance rules + 12 negative tests + 7 autonomy integrity tests per CR-ES-008 §24 + §25 + §28 + ADR-ES-008 §22
+## [0.7.0] ; 2026-09-23 ; VS-D2a, 17 AOP-AUTO-CON-001..017 Autonomous Operations conformance rules + 12 negative tests + 7 autonomy integrity tests per CR-ES-008 §24 + §25 + §28 + ADR-ES-008 §22
 
 ### Added
 
@@ -32,11 +32,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere on all 10 files
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 - Per CR-ES-008 §24 + §25 + §28 + ADR-ES-008 §22
 
-## [0.8.0] ; 2026-09-23 ; VS-D2a ;;; 19 AVS-AUTO-CON-001..019 Autonomous Value Stream conformance rules + 12 negative tests + 6-field autonomy integrity test per CR-ES-009 §25 + §26 + §28 + ADR-ES-009 §22
+## [0.8.0] ; 2026-09-23 ; VS-D2a, 19 AVS-AUTO-CON-001..019 Autonomous Value Stream conformance rules + 12 negative tests + 6-field autonomy integrity test per CR-ES-009 §25 + §26 + §28 + ADR-ES-009 §22
 
 ### Added
 
@@ -54,11 +54,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere on all 10 files
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 - Per CR-ES-009 §25 + §26 + §28 + ADR-ES-009 §22
 
-## [0.6.0] ; 2026-09-23 ; VS-D2a ;;; 15 AOP-CON-001..015 Agentic Operations conformance rules + 12 negative tests per CR-ES-007 §23 + §24 + ADR-ES-007 §27
+## [0.6.0] ; 2026-09-23 ; VS-D2a, 15 AOP-CON-001..015 Agentic Operations conformance rules + 12 negative tests per CR-ES-007 §23 + §24 + ADR-ES-007 §27
 
 ### Added
 
@@ -76,11 +76,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere on all 10 files
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 - Per CR-ES-007 §23 + §24 + ADR-ES-007 §27
 
-## [0.5.0] ; 2026-09-23 ; VS-D2a ;;; 14 AWF-CON-001..014 Agentic Workflow conformance rules + 10 negative tests per CR-ES-006 §28 + §29 + ADR-ES-006 §23
+## [0.5.0] ; 2026-09-23 ; VS-D2a, 14 AWF-CON-001..014 Agentic Workflow conformance rules + 10 negative tests per CR-ES-006 §28 + §29 + ADR-ES-006 §23
 
 ### Added
 
@@ -97,7 +97,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere on all 9 files
-- D-004 clean ;;; 0 forbidden glyphs
+- D-004 clean, 0 forbidden glyphs
 - No vendor-specific material from embargoed sources
 - Per CR-ES-006 §28 + §29 + ADR-ES-006 §23
 
@@ -105,15 +105,15 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Added
 
-- tests/agentic-value-stream/README.md ;;; test group index covering all 12 AVS-CON-001..012 conformance rules + 10 negative tests per CR-ES-005 §21 + §22
-- tests/agentic-value-stream/schema.md ;;; AVS-CON-001 + AVS-CON-002 + `AI is-a Agentic Value Stream` negative test
-- tests/agentic-value-stream/identity.md ;;; identity uniqueness + format + specialisation validation + profile binding validation
-- tests/agentic-value-stream/lifecycle.md ;;; AVS-CON-003 + AVS-CON-004 (initiating-condition + realisation-boundary retention)
-- tests/agentic-value-stream/relationships.md ;;; AVS-CON-005 + AVS-CON-006 + AVS-CON-007 + reference resolution
-- tests/agentic-value-stream/boundaries.md ;;; AVS-CON-008 + AVS-CON-009 + AVS-CON-010 + 4 negative tests
-- tests/agentic-value-stream/provenance.md ;;; AVS-CON-012 ;;; grounding + mappings presence
-- tests/agentic-value-stream/grounding.md ;;; ES-canonical novelty ;; Tier 2 Specialisation per FND-ES-AG-008 §1.3
-- tests/agentic-value-stream/examples.md ;;; OTCHERE Inc demonstration tests + 5 negative example tests
+- tests/agentic-value-stream/README.md, test group index covering all 12 AVS-CON-001..012 conformance rules + 10 negative tests per CR-ES-005 §21 + §22
+- tests/agentic-value-stream/schema.md, AVS-CON-001 + AVS-CON-002 + `AI is-a Agentic Value Stream` negative test
+- tests/agentic-value-stream/identity.md, identity uniqueness + format + specialisation validation + profile binding validation
+- tests/agentic-value-stream/lifecycle.md, AVS-CON-003 + AVS-CON-004 (initiating-condition + realisation-boundary retention)
+- tests/agentic-value-stream/relationships.md, AVS-CON-005 + AVS-CON-006 + AVS-CON-007 + reference resolution
+- tests/agentic-value-stream/boundaries.md, AVS-CON-008 + AVS-CON-009 + AVS-CON-010 + 4 negative tests
+- tests/agentic-value-stream/provenance.md, AVS-CON-012, grounding + mappings presence
+- tests/agentic-value-stream/grounding.md, ES-canonical novelty ;; Tier 2 Specialisation per FND-ES-AG-008 §1.3
+- tests/agentic-value-stream/examples.md, OTCHERE Inc demonstration tests + 5 negative example tests
 
 ### Cardinal rules
 
@@ -125,20 +125,20 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Added
 
-- `tests/agent/README.md` ;;; test group index covering all 13 AG-CON-001..013 conformance rules from CR-ES-004 §26 + 5 negative tests per §27.
-- `tests/agent/schema.md` ;;; AG-CON-001 (Agent definition), AG-CON-002 (Agentic definition) ;;; + negative test for `AI is-a Agent` per CR-ES-004 §27.
-- `tests/agent/identity.md` ;;; identity uniqueness + format tests ;;; subject_type alignment with concept identities per CR-ES-004 §10.
-- `tests/agent/lifecycle.md` ;;; AG-CON-011 (Agentic Value Stream not canonical), AG-CON-012 (Agentic Workflow not canonical), AG-CON-013 (Autonomous concepts not canonical) per CR-ES-004 §3 + §26.
-- `tests/agent/relationships.md` ;;; AG-CON-007 (Agent acts-within Authority), AG-CON-008 (Agentic has Intent), AG-CON-009 (Agentic supports Action Selection), AG-CON-010 (Agentic is outcome-oriented) ;;; + reference resolution tests.
-- `tests/agent/boundaries.md` ;;; AG-CON-003 (Agentic characteristics), AG-CON-004 (Agentic != AI), AG-CON-005 (Agentic != Automation), AG-CON-006 (Agentic != Autonomous) ;;; + negative tests for `Agentic is-a Autonomous` and `Automation is-a Agentic`.
-- `tests/agent/provenance.md` ;;; non-empty provenance + governing artefact citations (CR-ES-004 + ADR-ES-004 + FND-ES-AG-008).
-- `tests/agent/grounding.md` ;;; ES-canonical novelty ;;; no WSF Tier 1 or Tier 2 equivalent ;;; grounding entries document the absence.
-- `tests/agent/examples.md` ;;; OTCHERE Inc Customer Service Agent demonstration tests ;;; 6/6 characteristics + 8+/11 predicates + human escalation + OTCHERE Inc naming ;;; + negative example tests.
+- `tests/agent/README.md`, test group index covering all 13 AG-CON-001..013 conformance rules from CR-ES-004 §26 + 5 negative tests per §27.
+- `tests/agent/schema.md`, AG-CON-001 (Agent definition), AG-CON-002 (Agentic definition), + negative test for `AI is-a Agent` per CR-ES-004 §27.
+- `tests/agent/identity.md`, identity uniqueness + format tests, subject_type alignment with concept identities per CR-ES-004 §10.
+- `tests/agent/lifecycle.md`, AG-CON-011 (Agentic Value Stream not canonical), AG-CON-012 (Agentic Workflow not canonical), AG-CON-013 (Autonomous concepts not canonical) per CR-ES-004 §3 + §26.
+- `tests/agent/relationships.md`, AG-CON-007 (Agent acts-within Authority), AG-CON-008 (Agentic has Intent), AG-CON-009 (Agentic supports Action Selection), AG-CON-010 (Agentic is outcome-oriented), + reference resolution tests.
+- `tests/agent/boundaries.md`, AG-CON-003 (Agentic characteristics), AG-CON-004 (Agentic != AI), AG-CON-005 (Agentic != Automation), AG-CON-006 (Agentic != Autonomous), + negative tests for `Agentic is-a Autonomous` and `Automation is-a Agentic`.
+- `tests/agent/provenance.md`, non-empty provenance + governing artefact citations (CR-ES-004 + ADR-ES-004 + FND-ES-AG-008).
+- `tests/agent/grounding.md`, ES-canonical novelty, no WSF Tier 1 or Tier 2 equivalent, grounding entries document the absence.
+- `tests/agent/examples.md`, OTCHERE Inc Customer Service Agent demonstration tests, 6/6 characteristics + 8+/11 predicates + human escalation + OTCHERE Inc naming, + negative example tests.
 
 ### Cardinal rules
 
 - Author: Emmanuel A. Otchere on all 9 files
-- D-004 clean ;;; 0 forbidden glyphs on all 9 files
+- D-004 clean, 0 forbidden glyphs on all 9 files
 - No vendor-specific material from embargoed sources
 
 ### Held non-actions
@@ -151,19 +151,19 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ### Added
 
-- `tests/value-stream/README.md` ;;; test group index covering all 17 VS-CON-001..017 conformance rules from CR-ES-003 §29.
-- `tests/value-stream/schema.md` ;;; VS-CON-001 (Definition), VS-CON-002 (Identity) test stubs.
-- `tests/value-stream/identity.md` ;;; VS-ID-001..005 identity rules test stubs per CR-ES-003 §11.
-- `tests/value-stream/lifecycle.md` ;;; VS-CON-016 lifecycle test stub per CR-ES-003 §25 + ADR-ES-003 §29.
-- `tests/value-stream/relationships.md` ;;; VS-CON-007 (realizes), VS-CON-013 (predicate vocabulary) test stubs.
-- `tests/value-stream/boundaries.md` ;;; VS-CON-008 (Process), VS-CON-009 (Capability), VS-CON-010 (Workflow), VS-CON-017 (Agentic isolation) test stubs.
-- `tests/value-stream/provenance.md` ;;; VS-CON-014 (governing ADR + CR) test stub per CR-ES-003 §26.
-- `tests/value-stream/grounding.md` ;;; VS-CON-015 (WSF grounding) test stub per FND-ES-AG-008 §1.3.
-- `tests/value-stream/examples.md` ;;; OTCHERE Inc worked examples + §30 negative test cases per CR-ES-003 §18 + §30.
+- `tests/value-stream/README.md`, test group index covering all 17 VS-CON-001..017 conformance rules from CR-ES-003 §29.
+- `tests/value-stream/schema.md`, VS-CON-001 (Definition), VS-CON-002 (Identity) test stubs.
+- `tests/value-stream/identity.md`, VS-ID-001..005 identity rules test stubs per CR-ES-003 §11.
+- `tests/value-stream/lifecycle.md`, VS-CON-016 lifecycle test stub per CR-ES-003 §25 + ADR-ES-003 §29.
+- `tests/value-stream/relationships.md`, VS-CON-007 (realizes), VS-CON-013 (predicate vocabulary) test stubs.
+- `tests/value-stream/boundaries.md`, VS-CON-008 (Process), VS-CON-009 (Capability), VS-CON-010 (Workflow), VS-CON-017 (Agentic isolation) test stubs.
+- `tests/value-stream/provenance.md`, VS-CON-014 (governing ADR + CR) test stub per CR-ES-003 §26.
+- `tests/value-stream/grounding.md`, VS-CON-015 (WSF grounding) test stub per FND-ES-AG-008 §1.3.
+- `tests/value-stream/examples.md`, OTCHERE Inc worked examples + §30 negative test cases per CR-ES-003 §18 + §30.
 
 ### Scope
 
-This release implements VS-D2a of CR-ES-003 ;;; the 8 test directories from CR-ES-003 §31 (schema + identity + lifecycle + relationships + boundaries + provenance + grounding + examples). The tests are markdown stubs (mirroring the capability/ test directory pattern from CR-ES-002). Each stub documents the conformance rule(s), valid examples, invalid examples, and provenance reference. Promotion to executable Python tests is held for a future conformance PR.
+This release implements VS-D2a of CR-ES-003, the 8 test directories from CR-ES-003 §31 (schema + identity + lifecycle + relationships + boundaries + provenance + grounding + examples). The tests are markdown stubs (mirroring the capability/ test directory pattern from CR-ES-002). Each stub documents the conformance rule(s), valid examples, invalid examples, and provenance reference. Promotion to executable Python tests is held for a future conformance PR.
 
 ### Coverage of the 17 VS-CON rules
 
@@ -189,7 +189,7 @@ This release implements VS-D2a of CR-ES-003 ;;; the 8 test directories from CR-E
 
 ### Cardinal rules applied
 
-- Author: Emmanuel A. Otchere (cardinal author rule, 2026-09-23) ;;; present in all 9 new files.
+- Author: Emmanuel A. Otchere (cardinal author rule, 2026-09-23), present in all 9 new files.
 - No en-dash (U+2013) or em-dash (U+2014) in any new file (D-004 dash rule). Section dividers use `;;;` boundary lines per existing convention.
 - No vendor-specific material from embargoed sources in any new file (cardinal embargo, 2026-09-22).
 - ES is sourced from SDO-neutral standardisation only (ISO/IEC, ITU-T, ETSI, NIST).

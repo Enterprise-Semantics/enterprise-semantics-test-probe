@@ -2,7 +2,7 @@
 
 ## Scope
 
-Conformance rules per CR-ES-004 §26 ;;; 13 rules + 5 negative tests (per §27).
+Conformance rules per CR-ES-004 §26, 13 rules + 5 negative tests (per §27).
 
 ## Rules overview
 
@@ -24,9 +24,9 @@ Conformance rules per CR-ES-004 §26 ;;; 13 rules + 5 negative tests (per §27).
 
 ## Negative tests
 
-Per CR-ES-004 §27 ;;; the following must fail semantic validation:
+Per CR-ES-004 §27, the following must fail semantic validation:
 
-- `AI is-a Agent` ;;; when intended as a universal identity
+- `AI is-a Agent`, when intended as a universal identity
 - `Agentic is-a Autonomous`
 - `Automation is-a Agentic`
 - `Agentic Value Stream is established by CR-ES-004`
@@ -34,10 +34,10 @@ Per CR-ES-004 §27 ;;; the following must fail semantic validation:
 
 ## Cross-references
 
-- [Schema](./schema.md) ;;; AG-CON-001 + AG-CON-002 (definitions)
-- [Lifecycle](./lifecycle.md) ;;; AG-CON-011..013
-- [Relationships](./relationships.md) ;;; AG-CON-007..010
-- [Boundaries](./boundaries.md) ;;; AG-CON-003..006
+- [Schema](./schema.md), AG-CON-001 + AG-CON-002 (definitions)
+- [Lifecycle](./lifecycle.md), AG-CON-011..013
+- [Relationships](./relationships.md), AG-CON-007..010
+- [Boundaries](./boundaries.md), AG-CON-003..006
 - [Provenance](./provenance.md)
 - [Grounding](./grounding.md)
 - [Examples](./examples.md)

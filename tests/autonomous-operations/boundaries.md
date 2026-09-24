@@ -2,7 +2,7 @@
 
 ## AOP-AUTO-CON-013 ;; Autonomous Operations is distinct from Agentic Operations
 
-Per CR-ES-008 §10 + ADR-ES-008 §9 + §10 + §22 ;;; the relationship
+Per CR-ES-008 §10 + ADR-ES-008 §9 + §10 + §22, the relationship
 `Autonomous Operations is-a Agentic Operations` MUST be invalid.
 
 Test:
@@ -18,7 +18,7 @@ def test_auto_is_not_agentic_operations():
 
 ## AOP-AUTO-CON-014 ;; Autonomous Operations is distinct from Agentic Workflow
 
-Per CR-ES-008 §12 + ADR-ES-008 §12 + §22 ;;; the relationship
+Per CR-ES-008 §12 + ADR-ES-008 §12 + §22, the relationship
 `Autonomous Operations is-a Agentic Workflow` MUST be invalid.
 
 Test:
@@ -35,7 +35,7 @@ def test_auto_is_not_agentic_workflow():
 
 ## AOP-AUTO-CON-015 ;; Autonomous Operations is distinct from Agentic Value Stream
 
-Per ADR-ES-008 §13 + AOP-AUTO-CON-015 ;;; Autonomous Operations
+Per ADR-ES-008 §13 + AOP-AUTO-CON-015, Autonomous Operations
 MUST NOT specialise Agentic Value Stream.
 
 Test:
@@ -51,7 +51,7 @@ def test_auto_is_not_agentic_value_stream():
 
 ## AOP-AUTO-CON-010 ;; Autonomous Operations does not require AI
 
-Per ADR-ES-008 §19 + AOP-AUTO-CON-010 ;;; the concept record MUST
+Per ADR-ES-008 §19 + AOP-AUTO-CON-010, the concept record MUST
 NOT declare AI as a semantic requirement.
 
 Test:
@@ -68,7 +68,7 @@ def test_auto_does_not_require_ai():
 
 ## Material participation criterion
 
-Per ADR-ES-008 §7 + §28 ;;; autonomous behaviour must materially
+Per ADR-ES-008 §7 + §28, autonomous behaviour must materially
 participate in operational decision and action.
 
 Test:

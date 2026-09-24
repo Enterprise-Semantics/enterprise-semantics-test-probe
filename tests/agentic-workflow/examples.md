@@ -2,11 +2,11 @@
 
 ## OTCHERE Inc Order Fulfillment (Workflow + Agentic Workflow)
 
-Per CR-ES-006 §27 ;;; the foundational examples demonstrate:
+Per CR-ES-006 §27, the foundational examples demonstrate:
 
 - 6 conventional Workflow steps
-- 10 Agentic Workflow steps with agentic interpretation ;;; bounded
-  authority ;;; dynamic action selection ;;; coordination ;;; and
+- 10 Agentic Workflow steps with agentic interpretation, bounded
+  authority, dynamic action selection, coordination, and
   runtime adaptation
 
 Test:

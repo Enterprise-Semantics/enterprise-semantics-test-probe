@@ -2,7 +2,7 @@
 
 ## AWF-CON-005 ;; Agentic Workflow has an identifiable intent or execution objective
 
-Per CR-ES-006 §5 + §12 + ADR-ES-006 §4.1 + §19 ;;; the Agentic
+Per CR-ES-006 §5 + §12 + ADR-ES-006 §4.1 + §19, the Agentic
 Workflow concept record MUST have a `workflow_intent` property of
 type `reference` with `required: true`.
 
@@ -20,7 +20,7 @@ def test_awf_workflow_intent_required():
 
 ## AWF-CON-004 ;; Agentic Workflow operates within defined authority
 
-Per CR-ES-006 §5 + §13 + ADR-ES-006 §4.6 + §11 ;;; the Agentic
+Per CR-ES-006 §5 + §13 + ADR-ES-006 §4.6 + §11, the Agentic
 Workflow concept record MUST have an `authority_context` property of
 type `reference` with `required: true`.
 
