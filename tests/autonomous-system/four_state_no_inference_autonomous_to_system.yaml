@@ -1,0 +1,22 @@
+id: ES:TEST:autsys:integrity:31
+test_type: four_state_integrity
+test_name: four state no inference autonomous to system
+applies_to_concept: ES:CONCEPT:autonomous-system
+version: 2.4.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+
+input:
+  concept_record: ES:CONCEPT:autonomous-system
+  candidate_classification: autonomous_system
+
+expected_outcome:
+  result: pass
+  rationale: |
+    Per ES-ADR-028 section 5.
+
+provenance:
+  source:
+    - ES-ADR-028
+  implementation:
+    - CR-ES-028 section 5
