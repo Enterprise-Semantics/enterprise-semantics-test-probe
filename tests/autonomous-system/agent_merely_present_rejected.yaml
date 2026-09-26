@@ -1,0 +1,22 @@
+id: ES:TEST:autsys:negative:19
+test_type: negative
+test_name: agent merely present rejected
+applies_to_concept: ES:CONCEPT:autonomous-system
+version: 2.4.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+
+input:
+  concept_record: ES:CONCEPT:autonomous-system
+  candidate_classification: autonomous_system
+
+expected_outcome:
+  result: reject
+  rationale: |
+    Per ES-ADR-028 section 6-7.
+
+provenance:
+  source:
+    - ES-ADR-028
+  implementation:
+    - CR-ES-028 section 6-7
