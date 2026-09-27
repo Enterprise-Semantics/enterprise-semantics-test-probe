@@ -1,0 +1,32 @@
+id: ES:KIT:autonomous-value-stream
+concept: ES:CONCEPT:autonomous-value-stream
+canonical_name: Autonomous Value Stream
+base_concept: ES:CONCEPT:value-stream
+status: established
+version: 0.8.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-autonomous-value-stream
+
+coverage:
+  positive: 0
+  negative: 0
+  integrity: 1
+  other: 8
+  total: 9
+
+boundary_assertions_covered:
+  - autonomous_value_stream_distinct_from_agentic_value_stream
+  - autonomous_value_stream_does_not_require_ai
+  - policy_boundaries_required
+  - base_value_stream_canonical
+
+test_source_branch: docs/cr-es-009-vs-d-autonomous-value-stream-tests
+test_path: tests/autonomous-value-stream/
+
+provenance:
+  decision: [ES-ADR-020]
+  implementation: [ES-CR-020]
+  structure: [ES-ADR-030, ES-CR-030]
