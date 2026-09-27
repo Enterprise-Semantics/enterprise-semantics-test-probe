@@ -1,0 +1,31 @@
+id: ES:KIT:agentic-offering
+concept: ES:CONCEPT:agentic-offering
+canonical_name: Agentic Offering
+base_concept: ES:CONCEPT:offering
+status: established
+version: 1.7.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-agentic-offering
+
+coverage:
+  positive: 20
+  negative: 0
+  integrity: 0
+  other: 16
+  total: 36
+
+boundary_assertions_covered:
+  - agentic_offering_distinct_from_offering
+  - agentic_offering_does_not_require_ai
+  - base_offering_canonical
+
+test_source_branch: docs/cr-es-018-vs-d2a-agentic-offering-tests
+test_path: tests/agentic-offering/
+
+provenance:
+  decision: [ES-ADR-018]
+  implementation: [ES-CR-018]
+  structure: [ES-ADR-030, ES-CR-030]

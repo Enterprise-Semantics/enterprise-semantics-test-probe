@@ -1,0 +1,31 @@
+id: ES:KIT:agentic-organization
+concept: ES:CONCEPT:agentic-organization
+canonical_name: Agentic Organization
+base_concept: ES:CONCEPT:organization
+status: established
+version: 1.0.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-agentic-organization
+
+coverage:
+  positive: 20
+  negative: 0
+  integrity: 0
+  other: 16
+  total: 36
+
+boundary_assertions_covered:
+  - agentic_organization_distinct_from_organization
+  - agentic_organization_does_not_require_ai
+  - base_organization_canonical
+
+test_source_branch: docs/cr-es-020-vs-d2a-agentic-organization-tests
+test_path: tests/agentic-organization/
+
+provenance:
+  decision: [ES-ADR-020]
+  implementation: [ES-CR-020]
+  structure: [ES-ADR-030, ES-CR-030]
