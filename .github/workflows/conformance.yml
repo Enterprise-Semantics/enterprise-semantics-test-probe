@@ -1,0 +1,44 @@
+name: conformance-section
+
+# Per ES-ADR-030 + ES-CR-030 (DP3 = C): the conformance section is generated,
+# never hand-maintained. Nightly + on kit changes.
+
+on:
+  push:
+    paths:
+      - 'tests/kits/**'
+      - 'conformance/generate_conformance.py'
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - run: python3 conformance/generate_conformance.py rendered-conformance
+      - uses: actions/upload-artifact@v4
+        with:
+          name: conformance-section
+          path: rendered-conformance/
+      # Publishing to enterprise-semantics-docs/conformance/ requires a
+      # cross-repo token; until one is provisioned, the rendered section is
+      # uploaded as a build artifact and committed on kit-change runs below.
+      - name: Commit rendered section (same-repo runs)
+        if: github.event_name != 'schedule'
+        run: |
+          git config user.name "Emmanuel A. Otchere"
+          git config user.email "emmanuel@otchere.com"
+          mkdir -p docs-publishing/conformance
+          cp rendered-conformance/*.md docs-publishing/conformance/
+          git add docs-publishing/conformance
+          git diff --cached --quiet || git commit -m "chore(conformance): regenerate conformance section"
+          git push

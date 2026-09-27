@@ -1,0 +1,34 @@
+id: ES:KIT:agentic-ecosystem
+concept: ES:CONCEPT:agentic-ecosystem
+canonical_name: Agentic Ecosystem
+base_concept: WSF:ECOSYSTEM
+status: established
+version: 2.5.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-agentic-ecosystem
+
+coverage:
+  positive: 7
+  negative: 6
+  integrity: 0
+  other: 0
+  total: 13
+
+boundary_assertions_covered:
+  - agentic_ecosystem_specializes_wsf_ecosystem
+  - ecosystem_level_materiality_required
+  - ai_not_required
+  - distinct_from_agentic_system
+  - distinct_from_agentic_organization
+  - distinct_from_agentic_enterprise
+
+test_source_branch: docs/cr-es-029-vs-d2a-agentic-ecosystem-tests
+test_path: tests/agentic-ecosystem/
+
+provenance:
+  decision: [ES-ADR-029]
+  implementation: [ES-CR-029]
+  structure: [ES-ADR-030, ES-CR-030]
