@@ -2,7 +2,7 @@
 
 ## Identity uniqueness
 
-Per CR-ES-001 §15 ;;; ``ES:CONCEPT:<kebab>`` format must be unique across all concept records.
+Per CR-ES-001 §15, ``ES:CONCEPT:<kebab>`` format must be unique across all concept records.
 
 Test:
 
@@ -26,7 +26,7 @@ def test_agentic_identity_format(agentic_record):
 
 ## Subject_type in predicates
 
-Per CR-ES-004 §10 ;;; predicates with `subject_type: ES:CONCEPT:agent` MUST match the Agent's identity ;;; predicates with `subject_type: ES:CONCEPT:agentic` MUST match the Agentic's identity.
+Per CR-ES-004 §10, predicates with `subject_type: ES:CONCEPT:agent` MUST match the Agent's identity, predicates with `subject_type: ES:CONCEPT:agentic` MUST match the Agentic's identity.
 
 Test:
 
@@ -40,12 +40,12 @@ def test_predicate_subject_types_match_concepts(vocabulary_path):
     agent_predicates = [p for p in predicates if p.get('subject_type') == 'ES:CONCEPT:agent']
     agentic_predicates = [p for p in predicates if p.get('subject_type') == 'ES:CONCEPT:agentic']
     
-    # ;;; Agent predicates exist (Agent is a recognized concept)
+    #, Agent predicates exist (Agent is a recognized concept)
     assert len(agent_predicates) >= 8, f'Expected 8+ Agent predicates, got {len(agent_predicates)}'
     
-    # ;;; Agentic predicates are NOT in vocabulary as Entity subjects ;;; Agentic is a SemanticProperty
-    # ;;; the Agentic concept record itself has no subject predicates
-    # ;;; (predicate registration is for relationships, not for properties)
+    #, Agentic predicates are NOT in vocabulary as Entity subjects, Agentic is a SemanticProperty
+    #, the Agentic concept record itself has no subject predicates
+    #, (predicate registration is for relationships, not for properties)
 ```
 
 ## Authored by

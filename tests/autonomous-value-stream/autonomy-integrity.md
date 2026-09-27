@@ -2,7 +2,7 @@
 
 ## 6-field integrity
 
-Per CR-ES-009 §28 ;;; an asserted Autonomous Value Stream instance
+Per CR-ES-009 §28, an asserted Autonomous Value Stream instance
 MUST demonstrate at least 6 integrity fields:
 
 - Value Objective
@@ -58,7 +58,7 @@ def test_avs_integrity_6_fields():
 
 ## Negative test ;; Mere presence of AI / Agent / Automation is insufficient
 
-Per CR-ES-009 §28 ;;; an instance that merely contains AI / Agent
+Per CR-ES-009 §28, an instance that merely contains AI / Agent
 / Automation / Autonomous Operations / Agentic Workflow SHALL NOT
 pass Autonomous Value Stream conformance.
 

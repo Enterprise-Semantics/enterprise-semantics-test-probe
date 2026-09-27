@@ -2,7 +2,7 @@
 
 ## AOP-AUTO-CON-006 ;; Autonomous Operations is outcome-oriented
 
-Per CR-ES-008 §7 + §24 + ADR-ES-008 §7.6 + §22 ;;; the Autonomous
+Per CR-ES-008 §7 + §24 + ADR-ES-008 §7.6 + §22, the Autonomous
 Operations concept record MUST have an `operational_objective`
 property of type `reference` with `required: true`.
 
@@ -20,7 +20,7 @@ def test_auto_operational_objective_required():
 
 ## AOP-AUTO-CON-004 ;; Autonomous Operations operates within explicit authority
 
-Per CR-ES-008 §7 + §24 + ADR-ES-008 §5 + §7.4 + §22 ;;; the
+Per CR-ES-008 §7 + §24 + ADR-ES-008 §5 + §7.4 + §22, the
 Autonomous Operations concept record MUST have an
 `authority_context` property of type `reference` with `required: true`.
 
@@ -38,7 +38,7 @@ def test_auto_authority_context_required():
 
 ## AOP-AUTO-CON-005 ;; Autonomous Operations is governed by policies
 
-Per CR-ES-008 §7 + §24 + ADR-ES-008 §14 + §22 ;;; the Autonomous
+Per CR-ES-008 §7 + §24 + ADR-ES-008 §14 + §22, the Autonomous
 Operations concept record MUST have a `policy_context` property of
 type `reference` with `required: true` AND a `constraint_context`
 property of type `reference` with `required: true`.
@@ -63,7 +63,7 @@ def test_auto_constraint_context_required():
 
 ## AOP-AUTO-CON-008 ;; Autonomous Operations provides escalation boundary
 
-Per CR-ES-008 §7 + §24 + ADR-ES-008 §7.8 + §16 + §22 ;;; the
+Per CR-ES-008 §7 + §24 + ADR-ES-008 §7.8 + §16 + §22, the
 Autonomous Operations concept record MUST have an
 `escalation_boundary` property of type `reference_set` with
 `required: true`.

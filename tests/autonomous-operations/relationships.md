@@ -2,7 +2,7 @@
 
 ## AOP-AUTO-CON-001 ;; Autonomous Operations specialises Operations (relationship)
 
-Per CR-ES-008 §24 + ADR-ES-008 §22 ;;; the Autonomous Operations
+Per CR-ES-008 §24 + ADR-ES-008 §22, the Autonomous Operations
 record MUST declare 10 canonical relationships.
 
 Test:
@@ -23,7 +23,7 @@ def test_auto_required_relationships():
 
 ## AOP-AUTO-CON-009 ;; Autonomous Operations escalates to Human / Authority
 
-Per CR-ES-008 §9.7 + ADR-ES-008 §7.8 + §8 + §17 ;;; the Autonomous
+Per CR-ES-008 §9.7 + ADR-ES-008 §7.8 + §8 + §17, the Autonomous
 Operations MUST escalate to Human / Authority.
 
 Test:
@@ -38,7 +38,7 @@ def test_auto_escalates_to():
 
 ## AOP-AUTO-CON-013 ;; Autonomous Operations is distinct from Agentic Operations
 
-Per CR-ES-008 §24 + ADR-ES-008 §9 + §10 + §22 ;;; Autonomous
+Per CR-ES-008 §24 + ADR-ES-008 §9 + §10 + §22, Autonomous
 Operations MUST NOT specialise Agentic Operations.
 
 Test:

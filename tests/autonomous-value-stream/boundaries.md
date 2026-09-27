@@ -2,7 +2,7 @@
 
 ## AVS-AUTO-CON-005 ;; No Autonomous Value Stage is established
 
-Per CR-ES-009 §9 + ADR-ES-009 §11 + §20 + AVS-AUTO-INV-005 ;;; the
+Per CR-ES-009 §9 + ADR-ES-009 §11 + §20 + AVS-AUTO-INV-005, the
 implementation SHALL NOT create Autonomous Value Stage.
 
 Test:
@@ -23,7 +23,7 @@ def test_avs_uses_value_stage_not_autonomous():
 
 ## AVS-AUTO-CON-018 ;; Autonomous Value Stream is distinct from Workflow and Agentic Workflow
 
-Per CR-ES-009 §13 + ADR-ES-009 §15 + §22 ;;; the relationship
+Per CR-ES-009 §13 + ADR-ES-009 §15 + §22, the relationship
 `Autonomous Value Stream is-a Workflow` MUST be invalid.
 
 Test:
@@ -40,7 +40,7 @@ def test_avs_not_subtype_workflow():
 
 ## AVS-AUTO-CON-013 ;; AI Independence
 
-Per ADR-ES-009 §16 + AVS-AUTO-INV-005 ;;; the concept record MUST
+Per ADR-ES-009 §16 + AVS-AUTO-INV-005, the concept record MUST
 NOT declare AI as a semantic requirement.
 
 Test:
@@ -56,7 +56,7 @@ def test_avs_does_not_require_ai():
 
 ## Material autonomy criterion
 
-Per ADR-ES-009 §6 + AVS-AUTO-CON-006 ;;; Autonomous Value Stream
+Per ADR-ES-009 §6 + AVS-AUTO-CON-006, Autonomous Value Stream
 MUST demonstrate material autonomy at the value-realization
 boundary.
 

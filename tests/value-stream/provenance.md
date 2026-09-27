@@ -19,16 +19,16 @@ INVALID (missing governing ADR):
   status: ESTABLISHED
   provenance:
     - source: CR-ES-003
-      ;;; (no ADR reference ;;; VS-CON-014 violation)
+      - (no ADR reference, VS-CON-014 violation)
 
 INVALID (missing governing CR):
   id: ES:CONCEPT:value-stream:order-to-cash
   status: ESTABLISHED
   provenance:
     - source: ADR-ES-003
-      ;;; (no CR reference ;;; VS-CON-014 violation)
+      - (no CR reference, VS-CON-014 violation)
 
-Per ADR-ES-003 §26 ;;; the WSF grounding must be recorded explicitly
+Per ADR-ES-003 §26, the WSF grounding must be recorded explicitly
 with the WSF concept id (external:wsf:*) and the relationship type
 (specializes, references, etc.).
 

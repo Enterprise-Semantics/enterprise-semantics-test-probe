@@ -2,7 +2,7 @@
 
 ## AWF-CON-011 ;; Agentic Workflow is not a Process
 
-Per CR-ES-006 §9 + ADR-ES-006 §6 + §24.4 ;;; the relationship
+Per CR-ES-006 §9 + ADR-ES-006 §6 + §24.4, the relationship
 `Agentic Workflow is-a Process` MUST be invalid.
 
 Test:
@@ -20,7 +20,7 @@ def test_awf_is_not_process():
 
 ## AWF-CON-012 ;; Agentic Workflow is not a Value Stream
 
-Per ADR-ES-006 §15 + §24.6 + AWF-CON-012 ;;; the relationship
+Per ADR-ES-006 §15 + §24.6 + AWF-CON-012, the relationship
 `Agentic Workflow is-a Value Stream` MUST be invalid.
 
 Test:
@@ -36,7 +36,7 @@ def test_awf_is_not_value_stream():
 
 ## AWF-CON-013 ;; Agentic Workflow is not an Agent
 
-Per ADR-ES-006 §8 + AWF-CON-013 ;;; the relationship
+Per ADR-ES-006 §8 + AWF-CON-013, the relationship
 `Agentic Workflow is-a Agent` MUST be invalid.
 
 Test:
@@ -53,7 +53,7 @@ def test_awf_is_not_agent():
 
 ## AWF-CON-009 ;; Agentic Workflow does not require AI
 
-Per ADR-ES-006 §14 + AWF-CON-009 ;;; the concept record MUST NOT
+Per ADR-ES-006 §14 + AWF-CON-009, the concept record MUST NOT
 declare AI as a semantic requirement.
 
 Test:
@@ -69,7 +69,7 @@ def test_awf_does_not_require_ai():
 
 ## AWF-CON-010 ;; Agentic Workflow does not imply autonomy
 
-Per ADR-ES-006 §17 + AWF-CON-010 ;;; the concept record MUST NOT
+Per ADR-ES-006 §17 + AWF-CON-010, the concept record MUST NOT
 declare Autonomous Workflow semantics.
 
 Test:
@@ -85,7 +85,7 @@ def test_awf_does_not_imply_autonomy():
 
 ## Negative test ;; Workflow merely containing an Agent
 
-Per ADR-ES-006 §10 + §24.5 ;;; the material-participation criterion
+Per ADR-ES-006 §10 + §24.5, the material-participation criterion
 is enforced.
 
 Test:

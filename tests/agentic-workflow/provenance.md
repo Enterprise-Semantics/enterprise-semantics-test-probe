@@ -2,7 +2,7 @@
 
 ## AWF-CON-014 ;; Agentic Workflow preserves grounding and provenance
 
-Per CR-ES-006 §28 + ADR-ES-006 §23 ;;; the Agentic Workflow concept
+Per CR-ES-006 §28 + ADR-ES-006 §23, the Agentic Workflow concept
 record MUST carry complete grounding and provenance.
 
 Test:

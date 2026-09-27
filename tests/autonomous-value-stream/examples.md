@@ -2,7 +2,7 @@
 
 ## OTCHERE Inc Order-to-Cash Autonomous Value Stream
 
-Per CR-ES-009 §24 ;;; the foundational example demonstrates:
+Per CR-ES-009 §24, the foundational example demonstrates:
 
 - 7 value stages with distributed autonomy
 - 8 escalation boundaries
@@ -28,7 +28,7 @@ def test_avs_example_boundaries():
 
 def test_avs_distributed_autonomy():
     record = load_example('order-to-cash-autonomous')
-    # Per ADR-ES-009 §7 ;;; not every stage must be autonomous
+    # Per ADR-ES-009 §7, not every stage must be autonomous
     modes = [s['autonomy_mode'] for s in record['value_stages']]
     distinct_modes = set(modes)
     assert len(distinct_modes) >= 2  # mixed autonomy modes

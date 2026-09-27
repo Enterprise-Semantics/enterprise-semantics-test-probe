@@ -2,7 +2,7 @@
 
 ## AOP-AUTO-CON-017 ;; Autonomous Operations preserves grounding and provenance
 
-Per CR-ES-008 §24 + ADR-ES-008 §22 ;;; the Autonomous Operations
+Per CR-ES-008 §24 + ADR-ES-008 §22, the Autonomous Operations
 concept record MUST carry complete grounding and provenance.
 
 Test:
@@ -21,7 +21,7 @@ def test_auto_grounding_field():
 
 def test_auto_no_supersession_required():
     record = load_concept('autonomous-operations')
-    # No prior Phase 1 record existed ;;; no supersession required
+    # No prior Phase 1 record existed, no supersession required
     notes = [p.get('note', '') for p in record['provenance']]
     # Just verify CR-ES-008 + ADR-ES-008 provenance present
     pass

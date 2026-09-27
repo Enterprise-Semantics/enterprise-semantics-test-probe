@@ -2,7 +2,7 @@
 
 ## AVS-AUTO-CON-002 ;; Stakeholder anchor preserved
 
-Per CR-ES-009 §5 + §25 + ADR-ES-009 §13 + AVS-AUTO-INV-002 ;;; the
+Per CR-ES-009 §5 + §25 + ADR-ES-009 §13 + AVS-AUTO-INV-002, the
 Autonomous Value Stream concept record MUST have a
 `stakeholder_anchor` property of type `reference` with `required:
 true`.
@@ -21,7 +21,7 @@ def test_avs_stakeholder_anchor_required():
 
 ## AVS-AUTO-CON-003 ;; Initiating condition preserved
 
-Per CR-ES-009 §5 + §25 + ADR-ES-009 §4 ;;; the Autonomous Value
+Per CR-ES-009 §5 + §25 + ADR-ES-009 §4, the Autonomous Value
 Stream concept record MUST have an `initiating_condition` property
 of type `reference` with `required: true`.
 
@@ -38,7 +38,7 @@ def test_avs_initiating_condition_required():
 
 ## AVS-AUTO-CON-004 ;; Realization boundary preserved
 
-Per CR-ES-009 §5 + §25 + ADR-ES-009 §4 ;;; the Autonomous Value
+Per CR-ES-009 §5 + §25 + ADR-ES-009 §4, the Autonomous Value
 Stream concept record MUST have a `realization_boundary` property
 of type `reference_set` with `required: true`.
 
@@ -55,7 +55,7 @@ def test_avs_realization_boundary_required():
 
 ## AVS-AUTO-CON-005 ;; Value Stages preserved
 
-Per CR-ES-009 §5 + §25 + ADR-ES-009 §4 + §11 ;;; the Autonomous
+Per CR-ES-009 §5 + §25 + ADR-ES-009 §4 + §11, the Autonomous
 Value Stream MUST have a `contains` relationship to Value Stage.
 
 Test:
@@ -70,7 +70,7 @@ def test_avs_contains_value_stage():
 
 ## AVS-AUTO-CON-009 ;; Authority
 
-Per CR-ES-009 §6 + §25 + ADR-ES-009 §12 + AVS-AUTO-INV-009 ;;; the
+Per CR-ES-009 §6 + §25 + ADR-ES-009 §12 + AVS-AUTO-INV-009, the
 Autonomous Value Stream concept record MUST have an
 `authority_context` property of type `reference` with `required:
 true`.

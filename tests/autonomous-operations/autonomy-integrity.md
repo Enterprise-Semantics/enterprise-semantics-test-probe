@@ -2,7 +2,7 @@
 
 ## 6-field integrity
 
-Per CR-ES-008 §28 ;;; an asserted Autonomous Operations instance MUST
+Per CR-ES-008 §28, an asserted Autonomous Operations instance MUST
 demonstrate at least 6 integrity fields:
 
 - Defined operational objective
@@ -56,7 +56,7 @@ def test_auto_integrity_6_fields():
 
 ## Negative test ;; Mere Agent / AI / Workflow presence is insufficient
 
-Per CR-ES-008 §28 ;;; an instance that merely contains AI/Agent/
+Per CR-ES-008 §28, an instance that merely contains AI/Agent/
 Automation/Workflow SHALL NOT pass Autonomous Operations conformance.
 
 Test:

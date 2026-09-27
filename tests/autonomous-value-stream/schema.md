@@ -2,7 +2,7 @@
 
 ## AVS-AUTO-CON-001 ;; Autonomous Value Stream specialises Value Stream
 
-Per CR-ES-009 §25 + ADR-ES-009 §22 ;;; the Autonomous Value Stream
+Per CR-ES-009 §25 + ADR-ES-009 §22, the Autonomous Value Stream
 concept record MUST declare a direct specialisation of Value Stream.
 
 Test:
@@ -44,7 +44,7 @@ def test_avs_no_subtype_workflow():
 
 ## AVS-AUTO-CON-019 ;; Autonomous Value Stream preserves grounding and provenance
 
-Per CR-ES-009 §25 + ADR-ES-009 §22 ;;; the Autonomous Value Stream
+Per CR-ES-009 §25 + ADR-ES-009 §22, the Autonomous Value Stream
 concept record MUST carry grounding and provenance.
 
 Test:

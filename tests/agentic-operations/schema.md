@@ -2,7 +2,7 @@
 
 ## AOP-CON-001 ;; Agentic Operations specialises Operations
 
-Per CR-ES-007 §21 + §23 + ADR-ES-007 §2 + §21 + §27 ;;; the
+Per CR-ES-007 §21 + §23 + ADR-ES-007 §2 + §21 + §27, the
 Agentic Operations concept record MUST declare a direct
 specialisation of Operations.
 
@@ -23,7 +23,7 @@ def test_aop_specialization_predicate():
 
 ## AOP-CON-015 ;; Agentic Operations preserves grounding and provenance
 
-Per CR-ES-007 §23 + ADR-ES-007 §27 ;;; the Agentic Operations
+Per CR-ES-007 §23 + ADR-ES-007 §27, the Agentic Operations
 concept record MUST carry grounding and provenance.
 
 Test:

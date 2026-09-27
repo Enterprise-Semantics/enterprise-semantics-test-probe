@@ -2,7 +2,7 @@
 
 ## AOP-CON-001 ;; Agentic Operations specialises Operations (relationship)
 
-Per CR-ES-007 §21 + ADR-ES-007 §21 + §27 ;;; the Agentic Operations
+Per CR-ES-007 §21 + ADR-ES-007 §21 + §27, the Agentic Operations
 record MUST declare 9 canonical relationships.
 
 Test:
@@ -20,7 +20,7 @@ def test_aop_required_relationships():
 
 ## AOP-CON-007 ;; Agentic Operations uses Agentic Workflows
 
-Per CR-ES-007 §8.7 + ADR-ES-007 §9 + §21 ;;; the Agentic Operations
+Per CR-ES-007 §8.7 + ADR-ES-007 §9 + §21, the Agentic Operations
 MUST use Agentic Workflow.
 
 Test:
@@ -35,7 +35,7 @@ def test_aop_uses_agentic_workflow():
 
 ## AOP-CON-008 ;; Agentic Operations coordinates Processes
 
-Per CR-ES-007 §8.6 + ADR-ES-007 §10 ;;; the Agentic Operations MUST
+Per CR-ES-007 §8.6 + ADR-ES-007 §10, the Agentic Operations MUST
 coordinate Process.
 
 Test:
@@ -50,7 +50,7 @@ def test_aop_coordinates_process():
 
 ## AOP-CON-006 ;; Agentic Operations engages Agents
 
-Per CR-ES-007 §8.2 + ADR-ES-007 §11 ;;; the Agentic Operations MUST
+Per CR-ES-007 §8.2 + ADR-ES-007 §11, the Agentic Operations MUST
 engage Agent.
 
 Test:

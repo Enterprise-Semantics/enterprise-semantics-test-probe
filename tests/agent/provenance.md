@@ -2,7 +2,7 @@
 
 ## Provenance must be non-empty
 
-Per the existing schema validation (VS-CON-014 pattern for Value Stream) ;;; every Concept record MUST declare a non-empty `provenance` field listing the governing CR + ADR + FND references.
+Per the existing schema validation (VS-CON-014 pattern for Value Stream), every Concept record MUST declare a non-empty `provenance` field listing the governing CR + ADR + FND references.
 
 Test:
 
@@ -30,7 +30,7 @@ def test_action_provenance_non_empty(action_record):
 
 ## Provenance must cite governing artefacts
 
-Per CR-ES-004 + ADR-ES-004 ;;; provenance MUST cite at least one of: CR-ES-004 + ADR-ES-004 + FND-ES-AG-008.
+Per CR-ES-004 + ADR-ES-004, provenance MUST cite at least one of: CR-ES-004 + ADR-ES-004 + FND-ES-AG-008.
 
 Test:
 

@@ -2,7 +2,7 @@
 
 ## AOP-AUTO-CON-001 ;; Autonomous Operations specialises Operations
 
-Per CR-ES-008 §24 + ADR-ES-008 §22 ;;; the Autonomous Operations
+Per CR-ES-008 §24 + ADR-ES-008 §22, the Autonomous Operations
 concept record MUST declare a direct specialisation of Operations.
 
 Test:
@@ -43,7 +43,7 @@ def test_auto_no_subtype_agentic_value_stream():
 
 ## AOP-AUTO-CON-017 ;; Autonomous Operations preserves grounding and provenance
 
-Per CR-ES-008 §24 + ADR-ES-008 §22 ;;; the Autonomous Operations
+Per CR-ES-008 §24 + ADR-ES-008 §22, the Autonomous Operations
 concept record MUST carry grounding and provenance.
 
 Test:

@@ -2,7 +2,7 @@
 
 ## AOP-CON-015 ;; Agentic Operations preserves grounding and provenance
 
-Per CR-ES-007 §23 + ADR-ES-007 §27 ;;; the Agentic Operations
+Per CR-ES-007 §23 + ADR-ES-007 §27, the Agentic Operations
 concept record MUST carry complete grounding and provenance.
 
 Test:

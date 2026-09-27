@@ -25,6 +25,6 @@ INVALID (no id):
 INVALID (duplicate id with another Value Stream):
   id: ES:CONCEPT:value-stream:order-to-cash
   definition: An end-to-end sequence.
-  ;;; (assuming another record already has id: ES:CONCEPT:value-stream:order-to-cash)
+  - (assuming another record already has id: ES:CONCEPT:value-stream:order-to-cash)
 
 This test group is a stub. Implementation lands via CR-ES-003 conformance PR.

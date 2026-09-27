@@ -2,7 +2,7 @@
 
 ## AWF-CON-001 ;; Agentic Workflow specialises Workflow (relationship)
 
-Per CR-ES-006 §5 + §18 + ADR-ES-006 §2 + §18 ;;; the Agentic Workflow
+Per CR-ES-006 §5 + §18 + ADR-ES-006 §2 + §18, the Agentic Workflow
 record MUST declare 8 canonical relationships.
 
 Test:
@@ -25,7 +25,7 @@ def test_awf_specializes_workflow():
 
 ## AWF-CON-007 ;; Agentic Workflow engages Agents
 
-Per CR-ES-006 §11 + ADR-ES-006 §8 + §18 ;;; the Agentic Workflow
+Per CR-ES-006 §11 + ADR-ES-006 §8 + §18, the Agentic Workflow
 MUST engage Agent (inherited from CR-ES-004 + ADR-ES-004).
 
 Test:
@@ -40,7 +40,7 @@ def test_awf_engages_agent():
 
 ## AWF-CON-006 ;; Agentic Workflow coordinates Activities and Tasks
 
-Per CR-ES-006 §10 + ADR-ES-006 §18 ;;; the Agentic Workflow MUST
+Per CR-ES-006 §10 + ADR-ES-006 §18, the Agentic Workflow MUST
 coordinate Activities (and Tasks).
 
 Test:

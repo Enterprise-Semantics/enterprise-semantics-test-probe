@@ -2,7 +2,7 @@
 
 ## AOP-CON-013 ;; Agentic Operations is not Agentic Workflow
 
-Per CR-ES-007 §10 + ADR-ES-007 §7 + §24.3 ;;; the relationship
+Per CR-ES-007 §10 + ADR-ES-007 §7 + §24.3, the relationship
 `Agentic Operations is-a Agentic Workflow` MUST be invalid.
 
 Test:
@@ -18,7 +18,7 @@ def test_aop_is_not_agentic_workflow():
 
 ## AOP-CON-014 ;; Agentic Operations is not Agentic Value Stream
 
-Per ADR-ES-007 §8 + §24.4 + AOP-CON-014 ;;; the relationship
+Per ADR-ES-007 §8 + §24.4 + AOP-CON-014, the relationship
 `Agentic Operations is-a Agentic Value Stream` MUST be invalid.
 
 Test:
@@ -34,7 +34,7 @@ def test_aop_is_not_agentic_value_stream():
 
 ## AOP-CON-012 ;; Agentic Operations does not imply Autonomous Operations
 
-Per ADR-ES-007 §15 + §24.5 + AOP-CON-012 ;;; the relationship
+Per ADR-ES-007 §15 + §24.5 + AOP-CON-012, the relationship
 `Agentic Operations implies Autonomous Operations` MUST be invalid.
 
 Test:
@@ -51,7 +51,7 @@ def test_aop_does_not_imply_autonomy():
 
 ## AOP-CON-011 ;; Agentic Operations does not require AI
 
-Per ADR-ES-007 §14 + §24.1 + AOP-CON-011 ;;; the concept record MUST
+Per ADR-ES-007 §14 + §24.1 + AOP-CON-011, the concept record MUST
 NOT declare AI as a semantic requirement.
 
 Test:
@@ -68,7 +68,7 @@ def test_aop_does_not_require_ai():
 
 ## Negative test ;; Material participation criterion
 
-Per ADR-ES-007 §28.6 ;;; mere Agent presence does not establish
+Per ADR-ES-007 §28.6, mere Agent presence does not establish
 material agentic operational behavior.
 
 Test:

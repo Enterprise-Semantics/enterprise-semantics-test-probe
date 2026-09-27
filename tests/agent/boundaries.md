@@ -1,8 +1,8 @@
 # Boundaries tests for Agentic
 
-## AG-CON-003 ;;; Agentic must identify its semantic characteristics
+## AG-CON-003, Agentic must identify its semantic characteristics
 
-Per CR-ES-004 §26 ;;; the Agentic concept record MUST declare its 6 semantic characteristics (delegated intent, contextual interpretation, action selection, bounded authority, outcome orientation, adaptation).
+Per CR-ES-004 §26, the Agentic concept record MUST declare its 6 semantic characteristics (delegated intent, contextual interpretation, action selection, bounded authority, outcome orientation, adaptation).
 
 Test:
 
@@ -14,16 +14,16 @@ def test_agentic_characteristics(agentic_record):
     assert expected.issubset(actual), f'Missing characteristics: {expected - actual}'
 ```
 
-## AG-CON-004 ;;; Agentic must not be defined as AI
+## AG-CON-004, Agentic must not be defined as AI
 
-Per CR-ES-004 §26 + ADR-ES-004 §10 + AG-INV-001 ;;; the Agentic definition MUST NOT include "AI" as a synonym or equivalence claim.
+Per CR-ES-004 §26 + ADR-ES-004 §10 + AG-INV-001, the Agentic definition MUST NOT include "AI" as a synonym or equivalence claim.
 
 Test:
 
 ```python
 def test_agentic_not_ai(agentic_record):
     definition = agentic_record.get('definition', '').lower()
-    # ;;; the definition should not say "agentic IS AI" or "agentic = AI" or "agentic means AI"
+    #, the definition should not say "agentic IS AI" or "agentic = AI" or "agentic means AI"
     forbidden_phrases = [
         'agentic is ai',
         'agentic = ai',
@@ -35,9 +35,9 @@ def test_agentic_not_ai(agentic_record):
         assert phrase not in definition, f'Agentic definition contains forbidden phrase: {phrase}'
 ```
 
-## AG-CON-005 ;;; Agentic must not be defined as Automation
+## AG-CON-005, Agentic must not be defined as Automation
 
-Per CR-ES-004 §26 + ADR-ES-004 §8 + AG-INV-002 ;;; the Agentic definition MUST NOT include "Automation" as a synonym or equivalence claim.
+Per CR-ES-004 §26 + ADR-ES-004 §8 + AG-INV-002, the Agentic definition MUST NOT include "Automation" as a synonym or equivalence claim.
 
 Test:
 
@@ -54,9 +54,9 @@ def test_agentic_not_automation(agentic_record):
         assert phrase not in definition
 ```
 
-## AG-CON-006 ;;; Agentic must not be defined as Autonomous
+## AG-CON-006, Agentic must not be defined as Autonomous
 
-Per CR-ES-004 §26 + ADR-ES-004 §9 + AG-INV-003 ;;; the Agentic definition MUST NOT include "Autonomous" as a synonym or equivalence claim.
+Per CR-ES-004 §26 + ADR-ES-004 §9 + AG-INV-003, the Agentic definition MUST NOT include "Autonomous" as a synonym or equivalence claim.
 
 Test:
 
@@ -77,15 +77,15 @@ def test_agentic_not_autonomous(agentic_record):
 
 Per CR-ES-004 §27:
 
-- `AI is-a Agent` (universal identity) ;;; rejected ;;; see schema.md
-- `Agentic is-a Autonomous` ;;; rejected
-- `Automation is-a Agentic` ;;; rejected
+- `AI is-a Agent` (universal identity), rejected, see schema.md
+- `Agentic is-a Autonomous`, rejected
+- `Automation is-a Agentic`, rejected
 
 ```python
 def test_agentic_is_a_autonomous_rejected():
     record = {
         'id': 'ES:CONCEPT:agentic',
-        'is_a': 'ES:CONCEPT:autonomous',  # ;;; equivalence claim
+        'is_a': 'ES:CONCEPT:autonomous',  #, equivalence claim
         # ...
     }
     errors = validate(record)

@@ -2,7 +2,7 @@
 
 ## AVS-AUTO-CON-001 ;; Autonomous Value Stream specialises Value Stream (relationship)
 
-Per CR-ES-009 §25 + ADR-ES-009 §22 ;;; the Autonomous Value Stream
+Per CR-ES-009 §25 + ADR-ES-009 §22, the Autonomous Value Stream
 record MUST declare 12 canonical relationships.
 
 Test:
@@ -23,7 +23,7 @@ def test_avs_required_relationships():
 
 ## AVS-AUTO-CON-016 ;; Autonomous Value Stream is distinct from Agentic Value Stream
 
-Per CR-ES-009 §10 + ADR-ES-009 §3 + §10 + §22 ;;; Autonomous Value
+Per CR-ES-009 §10 + ADR-ES-009 §3 + §10 + §22, Autonomous Value
 Stream MUST NOT specialise Agentic Value Stream.
 
 Test:
@@ -39,7 +39,7 @@ def test_avs_not_subtype_agentic_value_stream():
 
 ## AVS-AUTO-CON-017 ;; Autonomous Value Stream is distinct from Autonomous Operations
 
-Per CR-ES-009 §14 + ADR-ES-009 §9 + §22 ;;; Autonomous Value Stream
+Per CR-ES-009 §14 + ADR-ES-009 §9 + §22, Autonomous Value Stream
 MUST NOT specialise Autonomous Operations.
 
 Test:

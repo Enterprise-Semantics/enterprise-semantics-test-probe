@@ -2,9 +2,9 @@
 
 ## ES-canonical novelty ;; Tier 2 Specialisation
 
-Per FND-ES-AG-008 §1.3 ;;; Agentic Workflow is Tier 2 Specialisation:
+Per FND-ES-AG-008 §1.3, Agentic Workflow is Tier 2 Specialisation:
 WSF Tier 1 Activity grounds Workflow ;; WSF Tier 1 Workflow grounds
-Agentic Workflow ;;; Agentic Workflow adds ES-canonical novelty.
+Agentic Workflow, Agentic Workflow adds ES-canonical novelty.
 
 Test:
 
