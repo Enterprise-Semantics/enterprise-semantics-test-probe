@@ -1,0 +1,10 @@
+id: ES:TEST:prim:offering:definition
+test_type: positive
+test_name: Offering canonical definition present
+description: Offering concept record carries a canonical definition (non-empty definition field)
+applies_to_concept: ES:CONCEPT:offering
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  topup: 2026-09-26 coverage top-up tranche

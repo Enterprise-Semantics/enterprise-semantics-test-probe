@@ -1,0 +1,10 @@
+id: ES:TEST:prim:organization:schema
+test_type: positive
+test_name: Organization schema conformance
+description: Organization concept record validates against concept schema (required fields present)
+applies_to_concept: ES:CONCEPT:organization
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  topup: 2026-09-26 coverage top-up tranche
