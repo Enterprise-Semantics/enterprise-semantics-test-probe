@@ -1,0 +1,31 @@
+id: ES:KIT:agentic-enterprise
+concept: ES:CONCEPT:agentic-enterprise
+canonical_name: Agentic Enterprise
+base_concept: ES:CONCEPT:enterprise
+status: established
+version: 0.1.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-agentic-enterprise
+
+coverage:
+  positive: 0
+  negative: 0
+  integrity: 1
+  other: 8
+  total: 9
+
+boundary_assertions_covered:
+  - agentic_enterprise_distinct_from_enterprise
+  - agentic_enterprise_does_not_require_ai
+  - base_enterprise_canonical
+
+test_source_branch: docs/cr-es-010-vs-d2-agentic-enterprise-tests
+test_path: tests/agentic-enterprise/
+
+provenance:
+  decision: [ES-ADR-016]
+  implementation: [ES-CR-016]
+  structure: [ES-ADR-030, ES-CR-030]
