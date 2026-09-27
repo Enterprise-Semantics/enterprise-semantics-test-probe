@@ -1,9 +1,18 @@
 # Conformance ; Enterprise-Semantics
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
-> Concepts covered: 15
+> Concepts covered: 22
 
 ## Coverage Matrix
+
+### Agentic Capability (`ES:CONCEPT:agentic-capability`)
+
+- Status: established
+- Version: 1.1.0
+- Base concept: ES:CONCEPT:capability
+- Concept repo: Enterprise-Semantics/concept-agentic-capability
+- Tests: 4 (positive 0 ; negative 1 ; integrity 0 ; other 3)
+- Boundary assertions covered: 3
 
 ### Agentic Culture (`ES:CONCEPT:agentic-culture`)
 
@@ -32,6 +41,15 @@
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
 - Boundary assertions covered: 3
 
+### Agentic Offering (`ES:CONCEPT:agentic-offering`)
+
+- Status: established
+- Version: 1.7.0
+- Base concept: ES:CONCEPT:offering
+- Concept repo: Enterprise-Semantics/concept-agentic-offering
+- Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
+- Boundary assertions covered: 3
+
 ### Agentic Operations (`ES:CONCEPT:agentic-operations`)
 
 - Status: established
@@ -39,6 +57,15 @@
 - Base concept: ES:CONCEPT:operations
 - Concept repo: Enterprise-Semantics/concept-agentic-operations
 - Tests: 9 (positive 0 ; negative 0 ; integrity 0 ; other 9)
+- Boundary assertions covered: 3
+
+### Agentic Organization (`ES:CONCEPT:agentic-organization`)
+
+- Status: established
+- Version: 1.0.0
+- Base concept: ES:CONCEPT:organization
+- Concept repo: Enterprise-Semantics/concept-agentic-organization
+- Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
 ### Agentic Product (`ES:CONCEPT:agentic-product`)
@@ -77,6 +104,15 @@
 - Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
 - Boundary assertions covered: 3
 
+### Agentic Workflow (`ES:CONCEPT:agentic-workflow`)
+
+- Status: established
+- Version: 0.5.0
+- Base concept: ES:CONCEPT:workflow
+- Concept repo: Enterprise-Semantics/concept-agentic-workflow
+- Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
+- Boundary assertions covered: 3
+
 ### Autonomous Capability (`ES:CONCEPT:autonomous-capability`)
 
 - Status: established
@@ -95,6 +131,24 @@
 - Tests: 38 (positive 21 ; negative 0 ; integrity 0 ; other 17)
 - Boundary assertions covered: 4
 
+### Autonomous Enterprise (`ES:CONCEPT:autonomous-enterprise`)
+
+- Status: established
+- Version: 1.0.0
+- Base concept: ES:CONCEPT:enterprise
+- Concept repo: Enterprise-Semantics/concept-autonomous-enterprise
+- Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
+- Boundary assertions covered: 3
+
+### Autonomous Offering (`ES:CONCEPT:autonomous-offering`)
+
+- Status: established
+- Version: 1.0.0
+- Base concept: ES:CONCEPT:offering
+- Concept repo: Enterprise-Semantics/concept-autonomous-offering
+- Tests: 38 (positive 21 ; negative 0 ; integrity 0 ; other 17)
+- Boundary assertions covered: 3
+
 ### Autonomous Operations (`ES:CONCEPT:autonomous-operations`)
 
 - Status: established
@@ -102,6 +156,15 @@
 - Base concept: ES:CONCEPT:operations
 - Concept repo: Enterprise-Semantics/concept-autonomous-operations
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
+- Boundary assertions covered: 3
+
+### Autonomous Organization (`ES:CONCEPT:autonomous-organization`)
+
+- Status: established
+- Version: 2.0.0
+- Base concept: ES:CONCEPT:organization
+- Concept repo: Enterprise-Semantics/concept-autonomous-organization
+- Tests: 37 (positive 21 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
 ### Autonomous Product (`ES:CONCEPT:autonomous-product`)
