@@ -1,0 +1,31 @@
+id: ES:KIT:product
+concept: ES:CONCEPT:product
+canonical_name: Product
+base_concept: WSF:PRODUCT
+status: established
+version: 1.0.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-product
+
+coverage:
+  positive: 0
+  negative: 0
+  integrity: 0
+  other: 0
+  total: 0
+
+boundary_assertions_covered:
+  - es_does_not_redefine_foundation
+  - specializations_reference_wsf_base
+
+test_source_branch: main
+test_path: tests/product/
+
+provenance:
+  source: [ADR-WSF-36]
+  decision: [ES-ADR-032]
+  implementation: [CR-ES-032]
+  structure: [ES-ADR-030, ES-CR-030]

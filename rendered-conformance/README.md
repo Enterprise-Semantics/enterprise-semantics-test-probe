@@ -1,7 +1,7 @@
 # Conformance ; Enterprise-Semantics
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
-> Concepts covered: 39
+> Concepts covered: 41
 
 ## Coverage Matrix
 
@@ -319,6 +319,24 @@
 - Concept repo: Enterprise-Semantics/concept-organization
 - Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
 - Boundary assertions covered: 0
+
+### Product (`ES:CONCEPT:product`)
+
+- Status: established
+- Version: 1.0.0
+- Base concept: WSF:PRODUCT
+- Concept repo: Enterprise-Semantics/concept-product
+- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Boundary assertions covered: 2
+
+### Service (`ES:CONCEPT:service`)
+
+- Status: established
+- Version: 1.0.0
+- Base concept: WSF:SERVICE
+- Concept repo: Enterprise-Semantics/concept-service
+- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Boundary assertions covered: 2
 
 ### System (`ES:CONCEPT:system`)
 
