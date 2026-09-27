@@ -11,7 +11,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-action
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Agent (`ES:CONCEPT:agent`)
@@ -29,7 +29,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-agentic
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Agentic Capability (`ES:CONCEPT:agentic-capability`)
@@ -38,7 +38,7 @@
 - Version: 1.1.0
 - Base concept: ES:CONCEPT:capability
 - Concept repo: Enterprise-Semantics/concept-agentic-capability
-- Tests: 4 (positive 0 ; negative 1 ; integrity 0 ; other 3)
+- Tests: 12 (positive 0 ; negative 1 ; integrity 0 ; other 11)
 - Boundary assertions covered: 3
 
 ### Agentic Culture (`ES:CONCEPT:agentic-culture`)
@@ -146,7 +146,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-ai-agent
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Authority (`ES:CONCEPT:authority`)
@@ -155,7 +155,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-authority
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Autonomous Capability (`ES:CONCEPT:autonomous-capability`)
@@ -254,7 +254,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-capability
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Culture (`ES:CONCEPT:culture`)
@@ -272,7 +272,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-enterprise
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Flow (`ES:CONCEPT:flow`)
@@ -281,7 +281,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-flow
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Intent (`ES:CONCEPT:intent`)
@@ -290,7 +290,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-intent
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Offering (`ES:CONCEPT:offering`)
@@ -299,7 +299,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-offering
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Operations (`ES:CONCEPT:operations`)
@@ -308,7 +308,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-operations
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Organization (`ES:CONCEPT:organization`)
@@ -317,7 +317,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-organization
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Product (`ES:CONCEPT:product`)
@@ -353,7 +353,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-value-stage
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ### Value Stream (`ES:CONCEPT:value-stream`)
@@ -371,7 +371,7 @@
 - Version: see concept.yaml
 - Base concept: primitive
 - Concept repo: Enterprise-Semantics/concept-workflow
-- Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
+- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
 ## Author

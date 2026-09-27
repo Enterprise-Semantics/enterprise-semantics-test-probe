@@ -15,8 +15,8 @@
 - Positive: 0
 - Negative: 1
 - Integrity: 0
-- Other: 3
-- Total: 4
+- Other: 11
+- Total: 12
 
 ## Boundary Assertions Covered
 
@@ -29,6 +29,7 @@
 - decision: ES-ADR-012
 - implementation: ES-CR-012
 - structure: ES-ADR-030, ES-CR-030
+- topup_2026_09_26: 8
 
 ## Author
 

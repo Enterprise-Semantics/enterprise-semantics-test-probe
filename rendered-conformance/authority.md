@@ -15,8 +15,8 @@
 - Positive: 0
 - Negative: 0
 - Integrity: 0
-- Other: 0
-- Total: 0
+- Other: 2
+- Total: 2
 
 ## Boundary Assertions Covered
 
@@ -24,6 +24,7 @@
 ## Provenance
 
 - structure: ES-ADR-030, ES-CR-030
+- topup_2026_09_26: 2
 
 ## Author
 

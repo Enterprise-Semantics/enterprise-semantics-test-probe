@@ -1,0 +1,10 @@
+id: ES:TEST:prim:workflow:definition
+test_type: positive
+test_name: Workflow canonical definition present
+description: Workflow concept record carries a canonical definition (non-empty definition field)
+applies_to_concept: ES:CONCEPT:workflow
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  topup: 2026-09-26 coverage top-up tranche

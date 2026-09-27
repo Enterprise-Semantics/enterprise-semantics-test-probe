@@ -1,0 +1,10 @@
+id: ES:TEST:prim:operations:definition
+test_type: positive
+test_name: Operations canonical definition present
+description: Operations concept record carries a canonical definition (non-empty definition field)
+applies_to_concept: ES:CONCEPT:operations
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  topup: 2026-09-26 coverage top-up tranche

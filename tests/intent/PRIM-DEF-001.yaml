@@ -1,0 +1,10 @@
+id: ES:TEST:prim:intent:definition
+test_type: positive
+test_name: Intent canonical definition present
+description: Intent concept record carries a canonical definition (non-empty definition field)
+applies_to_concept: ES:CONCEPT:intent
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  topup: 2026-09-26 coverage top-up tranche

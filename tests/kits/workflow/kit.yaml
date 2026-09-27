@@ -14,8 +14,8 @@ coverage:
   positive: 0
   negative: 0
   integrity: 0
-  other: 0
-  total: 0
+  other: 2
+  total: 2
 
 boundary_assertions_covered: []
 
@@ -24,3 +24,4 @@ test_path: tests/workflow/
 
 provenance:
   structure: [ES-ADR-030, ES-CR-030]
+  topup_2026_09_26: 2

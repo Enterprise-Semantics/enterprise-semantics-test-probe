@@ -1,0 +1,10 @@
+id: ES:TEST:prim:value-stage:schema
+test_type: positive
+test_name: Value Stage schema conformance
+description: Value Stage concept record validates against concept schema (required fields present)
+applies_to_concept: ES:CONCEPT:value-stage
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  topup: 2026-09-26 coverage top-up tranche
