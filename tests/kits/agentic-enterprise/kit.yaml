@@ -26,6 +26,6 @@ test_source_branch: docs/cr-es-010-vs-d2-agentic-enterprise-tests
 test_path: tests/agentic-enterprise/
 
 provenance:
-  decision: [ES-ADR-016]
-  implementation: [ES-CR-016]
+  decision: [ES-ADR-010]
+  implementation: [ES-CR-010]
   structure: [ES-ADR-030, ES-CR-030]

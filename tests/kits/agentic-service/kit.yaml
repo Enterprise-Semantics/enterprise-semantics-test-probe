@@ -1,0 +1,31 @@
+id: ES:KIT:agentic-service
+concept: ES:CONCEPT:agentic-service
+canonical_name: Agentic Service
+base_concept: ES:CONCEPT:service
+status: established
+version: 1.3.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-agentic-service
+
+coverage:
+  positive: 19
+  negative: 0
+  integrity: 0
+  other: 15
+  total: 34
+
+boundary_assertions_covered:
+  - agentic_service_distinct_from_service
+  - agentic_service_does_not_require_ai
+  - base_service_canonical
+
+test_source_branch: docs/cr-es-014-vs-d2a-agentic-service-tests
+test_path: tests/agentic-service/
+
+provenance:
+  decision: [ES-ADR-014]
+  implementation: [ES-CR-014]
+  structure: [ES-ADR-030, ES-CR-030]

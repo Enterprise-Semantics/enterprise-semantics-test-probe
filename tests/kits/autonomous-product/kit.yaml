@@ -1,0 +1,31 @@
+id: ES:KIT:autonomous-product
+concept: ES:CONCEPT:autonomous-product
+canonical_name: Autonomous Product
+base_concept: ES:CONCEPT:product
+status: established
+version: 1.6.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-autonomous-product
+
+coverage:
+  positive: 21
+  negative: 0
+  integrity: 0
+  other: 16
+  total: 37
+
+boundary_assertions_covered:
+  - autonomous_product_distinct_from_agentic_product
+  - autonomous_product_does_not_require_ai
+  - base_product_canonical
+
+test_source_branch: docs/cr-es-017-vs-d2a-autonomous-product-tests
+test_path: tests/autonomous-product/
+
+provenance:
+  decision: [ES-ADR-017]
+  implementation: [ES-CR-017]
+  structure: [ES-ADR-030, ES-CR-030]

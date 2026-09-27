@@ -26,6 +26,6 @@ test_source_branch: docs/cr-es-007-vs-d-agentic-operations-tests
 test_path: tests/agentic-operations/
 
 provenance:
-  decision: [ES-ADR-014]
-  implementation: [ES-CR-014]
+  decision: [ES-ADR-007]
+  implementation: [ES-CR-007]
   structure: [ES-ADR-030, ES-CR-030]

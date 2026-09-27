@@ -26,8 +26,8 @@
 
 ## Provenance
 
-- decision: ES-ADR-016
-- implementation: ES-CR-016
+- decision: ES-ADR-010
+- implementation: ES-CR-010
 - structure: ES-ADR-030, ES-CR-030
 
 ## Author
