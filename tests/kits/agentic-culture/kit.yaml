@@ -1,0 +1,33 @@
+id: ES:KIT:agentic-culture
+concept: ES:CONCEPT:agentic-culture
+canonical_name: Agentic Culture
+base_concept: WSF:CULTURE
+status: established
+version: 2.1.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-agentic-culture
+
+coverage:
+  positive: 20
+  negative: 0
+  integrity: 0
+  other: 16
+  total: 36
+
+boundary_assertions_covered:
+  - agentic_culture_distinct_from_culture
+  - agentic_culture_distinct_from_agentic_system
+  - agentic_culture_does_not_require_ai
+  - agentic_behavior_material_at_culture_level
+  - culture_base_is_wsf_canonical
+
+test_source_branch: docs/cr-es-023-vs-d2a-agentic-culture-tests
+test_path: tests/agentic-culture/
+
+provenance:
+  decision: [ES-ADR-023]
+  implementation: [ES-CR-023]
+  structure: [ES-ADR-030, ES-CR-030]

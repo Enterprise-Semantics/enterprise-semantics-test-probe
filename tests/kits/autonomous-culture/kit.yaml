@@ -1,0 +1,32 @@
+id: ES:KIT:autonomous-culture
+concept: ES:CONCEPT:autonomous-culture
+canonical_name: Autonomous Culture
+base_concept: WSF:CULTURE
+status: established
+version: 2.1.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-autonomous-culture
+
+coverage:
+  positive: 21
+  negative: 0
+  integrity: 0
+  other: 17
+  total: 38
+
+boundary_assertions_covered:
+  - autonomous_culture_distinct_from_agentic_culture
+  - autonomous_culture_does_not_require_ai
+  - autonomy_requires_policy_boundaries
+  - culture_base_is_wsf_canonical
+
+test_source_branch: docs/cr-es-024-vs-d2a-autonomous-culture-tests
+test_path: tests/autonomous-culture/
+
+provenance:
+  decision: [ES-ADR-024]
+  implementation: [ES-CR-024]
+  structure: [ES-ADR-030, ES-CR-030]

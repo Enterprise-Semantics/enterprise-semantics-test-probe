@@ -1,0 +1,32 @@
+id: ES:KIT:agentic-system
+concept: ES:CONCEPT:agentic-system
+canonical_name: Agentic System
+base_concept: WSF:SYSTEM
+status: established
+version: 2.3.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-agentic-system
+
+coverage:
+  positive: 21
+  negative: 0
+  integrity: 0
+  other: 18
+  total: 39
+
+boundary_assertions_covered:
+  - agentic_system_distinct_from_system
+  - agentic_system_distinct_from_agentic_culture
+  - agentic_system_does_not_require_ai
+  - system_base_is_wsf_canonical
+
+test_source_branch: docs/cr-es-025-vs-d2a-agentic-system-tests
+test_path: tests/agentic-system/
+
+provenance:
+  decision: [ES-ADR-025]
+  implementation: [ES-CR-025]
+  structure: [ES-ADR-030, ES-CR-030]

@@ -1,0 +1,32 @@
+id: ES:KIT:autonomous-system
+concept: ES:CONCEPT:autonomous-system
+canonical_name: Autonomous System
+base_concept: WSF:SYSTEM
+status: established
+version: 2.4.0
+date: 2026-09-26
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+
+concept_repo: Enterprise-Semantics/concept-autonomous-system
+
+coverage:
+  positive: 0
+  negative: 0
+  integrity: 0
+  other: 31
+  total: 31
+
+boundary_assertions_covered:
+  - autonomous_system_distinct_from_agentic_system
+  - autonomous_system_does_not_require_ai
+  - four_state_matrix_valid
+  - system_base_is_wsf_canonical
+
+test_source_branch: docs/cr-es-028-vs-d2a-autonomous-system-tests
+test_path: tests/autonomous-system/
+
+provenance:
+  decision: [ES-ADR-028]
+  implementation: [ES-CR-028]
+  structure: [ES-ADR-030, ES-CR-030]
