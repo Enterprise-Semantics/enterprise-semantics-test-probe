@@ -1,7 +1,7 @@
 # Conformance ; Enterprise-Semantics
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
-> Concepts covered: 10
+> Concepts covered: 15
 
 ## Coverage Matrix
 
@@ -41,6 +41,24 @@
 - Tests: 9 (positive 0 ; negative 0 ; integrity 0 ; other 9)
 - Boundary assertions covered: 3
 
+### Agentic Product (`ES:CONCEPT:agentic-product`)
+
+- Status: established
+- Version: 1.5.0
+- Base concept: ES:CONCEPT:product
+- Concept repo: Enterprise-Semantics/concept-agentic-product
+- Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
+- Boundary assertions covered: 3
+
+### Agentic Service (`ES:CONCEPT:agentic-service`)
+
+- Status: established
+- Version: 1.3.0
+- Base concept: ES:CONCEPT:service
+- Concept repo: Enterprise-Semantics/concept-agentic-service
+- Tests: 34 (positive 19 ; negative 0 ; integrity 0 ; other 15)
+- Boundary assertions covered: 3
+
 ### Agentic System (`ES:CONCEPT:agentic-system`)
 
 - Status: established
@@ -59,6 +77,15 @@
 - Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
 - Boundary assertions covered: 3
 
+### Autonomous Capability (`ES:CONCEPT:autonomous-capability`)
+
+- Status: established
+- Version: 1.2.0
+- Base concept: ES:CONCEPT:capability
+- Concept repo: Enterprise-Semantics/concept-autonomous-capability
+- Tests: 32 (positive 18 ; negative 0 ; integrity 0 ; other 14)
+- Boundary assertions covered: 3
+
 ### Autonomous Culture (`ES:CONCEPT:autonomous-culture`)
 
 - Status: established
@@ -75,6 +102,24 @@
 - Base concept: ES:CONCEPT:operations
 - Concept repo: Enterprise-Semantics/concept-autonomous-operations
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
+- Boundary assertions covered: 3
+
+### Autonomous Product (`ES:CONCEPT:autonomous-product`)
+
+- Status: established
+- Version: 1.6.0
+- Base concept: ES:CONCEPT:product
+- Concept repo: Enterprise-Semantics/concept-autonomous-product
+- Tests: 37 (positive 21 ; negative 0 ; integrity 0 ; other 16)
+- Boundary assertions covered: 3
+
+### Autonomous Service (`ES:CONCEPT:autonomous-service`)
+
+- Status: established
+- Version: 1.4.0
+- Base concept: ES:CONCEPT:service
+- Concept repo: Enterprise-Semantics/concept-autonomous-service
+- Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
 ### Autonomous System (`ES:CONCEPT:autonomous-system`)

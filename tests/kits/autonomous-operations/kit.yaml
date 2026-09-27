@@ -26,6 +26,6 @@ test_source_branch: docs/cr-es-008-vs-d-autonomous-operations-tests
 test_path: tests/autonomous-operations/
 
 provenance:
-  decision: [ES-ADR-015]
-  implementation: [ES-CR-015]
+  decision: [ES-ADR-008]
+  implementation: [ES-CR-008]
   structure: [ES-ADR-030, ES-CR-030]
