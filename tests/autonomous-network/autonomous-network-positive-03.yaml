@@ -1,0 +1,12 @@
+id: ES:TEST:autonomous-network:positive:03
+test_type: positive
+test_name: four state matrix independence
+applies_to_concept: ES:CONCEPT:autonomous-network
+version: 2.8.0
+date: 2026-09-28
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  decision: [ES-ADR-032]
+  implementation: [CR-ES-032]
