@@ -1,7 +1,7 @@
 # Conformance ; Enterprise-Semantics
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
-> Concepts covered: 42
+> Concepts covered: 44
 
 ## Coverage Matrix
 
@@ -266,6 +266,15 @@
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
+### Closed Loop (`ES:CONCEPT:closed-loop`)
+
+- Status: Established
+- Version: 2.8.0
+- Base concept: WSF:CLOSED_LOOP
+- Concept repo: Enterprise-Semantics/concept-closed-loop
+- Tests: 9 (positive 5 ; negative 4 ; integrity 0 ; other 0)
+- Boundary assertions covered: 3
+
 ### Culture (`ES:CONCEPT:culture`)
 
 - Status: established
@@ -301,6 +310,15 @@
 - Concept repo: Enterprise-Semantics/concept-intent
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
+
+### Network (`ES:CONCEPT:network`)
+
+- Status: Established
+- Version: 2.7.0
+- Base concept: WSF:NETWORK
+- Concept repo: Enterprise-Semantics/concept-network
+- Tests: 9 (positive 5 ; negative 4 ; integrity 0 ; other 0)
+- Boundary assertions covered: 3
 
 ### Offering (`ES:CONCEPT:offering`)
 
