@@ -1,13 +1,13 @@
-# Conformance ; Closed Loop
+# Conformance ; Agentic Network
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
 
-- Concept: `ES:CONCEPT:closed-loop`
-- Base concept: WSF:CLOSED_LOOP
+- Concept: `ES:CONCEPT:agentic-network`
+- Base concept: WSF:NETWORK
 - Status: Established
-- Version: 2.10.0
-- Concept repo: Enterprise-Semantics/concept-closed-loop
-- Test path: tests/closed-loop/
+- Version: 2.7.0
+- Concept repo: Enterprise-Semantics/concept-agentic-network
+- Test path: tests/agentic-network/
 - Test source branch: main
 
 ## Coverage
@@ -20,12 +20,12 @@
 
 ## Boundary Assertions Covered
 
-- per_es_adr_034
+- per_es_adr_031
 
 ## Provenance
 
-- decision: ES-ADR-034
-- implementation: CR-ES-034
+- decision: ES-ADR-031
+- implementation: CR-ES-031
 - structure: ES-ADR-030, ES-CR-030
 
 ## Author
