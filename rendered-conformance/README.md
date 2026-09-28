@@ -1,7 +1,7 @@
 # Conformance ; Enterprise-Semantics
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
-> Concepts covered: 41
+> Concepts covered: 42
 
 ## Coverage Matrix
 
@@ -175,6 +175,15 @@
 - Concept repo: Enterprise-Semantics/concept-autonomous-culture
 - Tests: 38 (positive 21 ; negative 0 ; integrity 0 ; other 17)
 - Boundary assertions covered: 4
+
+### Autonomous Ecosystem (`ES:CONCEPT:autonomous-ecosystem`)
+
+- Status: established
+- Version: 2.6.0
+- Base concept: WSF:ECOSYSTEM
+- Concept repo: Enterprise-Semantics/concept-autonomous-ecosystem
+- Tests: 10 (positive 6 ; negative 4 ; integrity 0 ; other 0)
+- Boundary assertions covered: 5
 
 ### Autonomous Enterprise (`ES:CONCEPT:autonomous-enterprise`)
 
