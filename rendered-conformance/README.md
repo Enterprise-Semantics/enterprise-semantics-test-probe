@@ -1,7 +1,7 @@
 # Conformance ; Enterprise-Semantics
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
-> Concepts covered: 44
+> Concepts covered: 48
 
 ## Coverage Matrix
 
@@ -67,6 +67,15 @@
 - Concept repo: Enterprise-Semantics/concept-agentic-enterprise
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
 - Boundary assertions covered: 3
+
+### Agentic Network (`ES:CONCEPT:agentic-network`)
+
+- Status: Established
+- Version: 2.7.0
+- Base concept: WSF:NETWORK
+- Concept repo: Enterprise-Semantics/concept-agentic-network
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 1
 
 ### Agentic Offering (`ES:CONCEPT:agentic-offering`)
 
@@ -167,6 +176,15 @@
 - Tests: 32 (positive 18 ; negative 0 ; integrity 0 ; other 14)
 - Boundary assertions covered: 3
 
+### Autonomous Closed Loop (`ES:CONCEPT:autonomous-closed-loop`)
+
+- Status: Established
+- Version: 2.11.0
+- Base concept: ES:CONCEPT:closed-loop
+- Concept repo: Enterprise-Semantics/concept-autonomous-closed-loop
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 1
+
 ### Autonomous Culture (`ES:CONCEPT:autonomous-culture`)
 
 - Status: established
@@ -193,6 +211,15 @@
 - Concept repo: Enterprise-Semantics/concept-autonomous-enterprise
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
 - Boundary assertions covered: 3
+
+### Autonomous Network (`ES:CONCEPT:autonomous-network`)
+
+- Status: Established
+- Version: 2.8.0
+- Base concept: WSF:NETWORK
+- Concept repo: Enterprise-Semantics/concept-autonomous-network
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 1
 
 ### Autonomous Offering (`ES:CONCEPT:autonomous-offering`)
 
@@ -269,11 +296,11 @@
 ### Closed Loop (`ES:CONCEPT:closed-loop`)
 
 - Status: Established
-- Version: 2.8.0
+- Version: 2.10.0
 - Base concept: WSF:CLOSED_LOOP
 - Concept repo: Enterprise-Semantics/concept-closed-loop
-- Tests: 9 (positive 5 ; negative 4 ; integrity 0 ; other 0)
-- Boundary assertions covered: 3
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 1
 
 ### Culture (`ES:CONCEPT:culture`)
 
@@ -310,6 +337,15 @@
 - Concept repo: Enterprise-Semantics/concept-intent
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
+
+### Loop Engineering (`ES:CONCEPT:loop-engineering`)
+
+- Status: Established
+- Version: 2.9.0
+- Base concept: None
+- Concept repo: Enterprise-Semantics/concept-loop-engineering
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 1
 
 ### Network (`ES:CONCEPT:network`)
 

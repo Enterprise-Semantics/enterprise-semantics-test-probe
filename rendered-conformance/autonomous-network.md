@@ -1,13 +1,13 @@
-# Conformance ; Closed Loop
+# Conformance ; Autonomous Network
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
 
-- Concept: `ES:CONCEPT:closed-loop`
-- Base concept: WSF:CLOSED_LOOP
+- Concept: `ES:CONCEPT:autonomous-network`
+- Base concept: WSF:NETWORK
 - Status: Established
-- Version: 2.10.0
-- Concept repo: Enterprise-Semantics/concept-closed-loop
-- Test path: tests/closed-loop/
+- Version: 2.8.0
+- Concept repo: Enterprise-Semantics/concept-autonomous-network
+- Test path: tests/autonomous-network/
 - Test source branch: main
 
 ## Coverage
@@ -20,12 +20,12 @@
 
 ## Boundary Assertions Covered
 
-- per_es_adr_034
+- per_es_adr_032
 
 ## Provenance
 
-- decision: ES-ADR-034
-- implementation: CR-ES-034
+- decision: ES-ADR-032
+- implementation: CR-ES-032
 - structure: ES-ADR-030, ES-CR-030
 
 ## Author

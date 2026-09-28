@@ -1,13 +1,13 @@
-# Conformance ; Closed Loop
+# Conformance ; Autonomous Closed Loop
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
 
-- Concept: `ES:CONCEPT:closed-loop`
-- Base concept: WSF:CLOSED_LOOP
+- Concept: `ES:CONCEPT:autonomous-closed-loop`
+- Base concept: ES:CONCEPT:closed-loop
 - Status: Established
-- Version: 2.10.0
-- Concept repo: Enterprise-Semantics/concept-closed-loop
-- Test path: tests/closed-loop/
+- Version: 2.11.0
+- Concept repo: Enterprise-Semantics/concept-autonomous-closed-loop
+- Test path: tests/autonomous-closed-loop/
 - Test source branch: main
 
 ## Coverage
@@ -20,12 +20,12 @@
 
 ## Boundary Assertions Covered
 
-- per_es_adr_034
+- per_es_adr_035
 
 ## Provenance
 
-- decision: ES-ADR-034
-- implementation: CR-ES-034
+- decision: ES-ADR-035
+- implementation: CR-ES-035
 - structure: ES-ADR-030, ES-CR-030
 
 ## Author
