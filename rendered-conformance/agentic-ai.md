@@ -1,4 +1,4 @@
-# Conformance ; Ai Agent
+# Conformance ; Agentic Ai
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
 
@@ -7,7 +7,7 @@
 - Status: Established
 - Version: 1.0.0
 - Concept repo: None
-- Test path: tests/ai-agent/
+- Test path: tests/agentic-ai/
 - Test source branch: main
 
 ## Coverage
@@ -27,8 +27,8 @@
 
 ## Provenance
 
-- decision: ES-ADR-AI
-- implementation: ES-CR-AI
+- decision: ES-ADR-AGE
+- implementation: ES-CR-AGE
 - structure: ES-ADR-030, ES-CR-030
 
 ## Author

@@ -1,4 +1,4 @@
-# Conformance ; Ai Agent
+# Conformance ; Mlops
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
 
@@ -7,7 +7,7 @@
 - Status: Established
 - Version: 1.0.0
 - Concept repo: None
-- Test path: tests/ai-agent/
+- Test path: tests/mlops/
 - Test source branch: main
 
 ## Coverage
@@ -27,8 +27,8 @@
 
 ## Provenance
 
-- decision: ES-ADR-AI
-- implementation: ES-CR-AI
+- decision: ES-ADR-MLO
+- implementation: ES-CR-MLO
 - structure: ES-ADR-030, ES-CR-030
 
 ## Author

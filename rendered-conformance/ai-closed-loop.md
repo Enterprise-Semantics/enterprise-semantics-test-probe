@@ -1,4 +1,4 @@
-# Conformance ; Ai Agent
+# Conformance ; Ai Closed Loop
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
 
@@ -7,7 +7,7 @@
 - Status: Established
 - Version: 1.0.0
 - Concept repo: None
-- Test path: tests/ai-agent/
+- Test path: tests/ai-closed-loop/
 - Test source branch: main
 
 ## Coverage

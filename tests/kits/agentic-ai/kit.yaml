@@ -1,13 +1,13 @@
-id: ES:KIT:ai-agent
-profile: ES:CONCEPT:ai-agent-profile
-canonical_name: Ai Agent
+id: ES:KIT:agentic-ai
+profile: ES:CONCEPT:agentic-ai-profile
+canonical_name: Agentic Ai
 status: Established
 version: 1.0.0
 date: 2026-09-28
 author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
 governance: enterprise-semantics
 disposition: profile (canonical-reject per AI boundary rule)
-base_concept_disposition: ES-ADR-AI
+base_concept_disposition: ES-ADR-AGE
 coverage:
   positive: 5
   negative: 5
@@ -20,8 +20,8 @@ boundary_assertions_covered:
   - four_state_independence_preserved
   - vendor_neutral_treatment
 test_source_branch: main
-test_path: tests/ai-agent/
+test_path: tests/agentic-ai/
 provenance:
-  decision: [ES-ADR-AI]
-  implementation: [ES-CR-AI]
+  decision: [ES-ADR-AGE]
+  implementation: [ES-CR-AGE]
   structure: [ES-ADR-030, ES-CR-030]
