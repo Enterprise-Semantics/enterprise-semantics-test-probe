@@ -1,0 +1,12 @@
+id: ES:TEST:agentic-network:negative:05
+test_type: negative
+test_name: agentic implies autonomous rejected
+applies_to_concept: ES:CONCEPT:agentic-network
+version: 2.7.0
+date: 2026-09-28
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: reject
+provenance:
+  decision: [ES-ADR-031]
+  implementation: [CR-ES-031]
