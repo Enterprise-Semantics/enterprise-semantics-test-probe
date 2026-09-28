@@ -1,6 +1,6 @@
-id: ES:KIT:ai-agent
-profile: ES:CONCEPT:ai-agent-profile
-canonical_name: Ai Agent
+id: ES:KIT:ai-native-operations
+profile: ES:CONCEPT:ai-native-operations-profile
+canonical_name: Ai Native Operations
 status: Established
 version: 1.0.0
 date: 2026-09-28
@@ -20,7 +20,7 @@ boundary_assertions_covered:
   - four_state_independence_preserved
   - vendor_neutral_treatment
 test_source_branch: main
-test_path: tests/ai-agent/
+test_path: tests/ai-native-operations/
 provenance:
   decision: [ES-ADR-AI]
   implementation: [ES-CR-AI]

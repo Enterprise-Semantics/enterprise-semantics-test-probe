@@ -1,7 +1,7 @@
 # Conformance ; Enterprise-Semantics
 
 > CI-generated per ES-ADR-030 + ES-CR-030. Do not hand-edit.
-> Concepts covered: 48
+> Concepts covered: 53
 
 ## Coverage Matrix
 
@@ -31,6 +31,15 @@
 - Concept repo: Enterprise-Semantics/concept-agentic
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
+
+### Agentic Ai (`None`)
+
+- Status: Established
+- Version: 1.0.0
+- Base concept: None
+- Concept repo: None
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 4
 
 ### Agentic Capability (`ES:CONCEPT:agentic-capability`)
 
@@ -149,14 +158,41 @@
 - Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
 - Boundary assertions covered: 3
 
-### Ai Agent (`ES:CONCEPT:ai-agent`)
+### Ai Agent (`None`)
 
-- Status: established
-- Version: see concept.yaml
-- Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-ai-agent
-- Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
-- Boundary assertions covered: 0
+- Status: Established
+- Version: 1.0.0
+- Base concept: None
+- Concept repo: None
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 4
+
+### Ai Closed Loop (`None`)
+
+- Status: Established
+- Version: 1.0.0
+- Base concept: None
+- Concept repo: None
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 4
+
+### Ai Native Operations (`None`)
+
+- Status: Established
+- Version: 1.0.0
+- Base concept: None
+- Concept repo: None
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 4
+
+### Aiops (`None`)
+
+- Status: Established
+- Version: 1.0.0
+- Base concept: None
+- Concept repo: None
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 4
 
 ### Authority (`ES:CONCEPT:authority`)
 
@@ -346,6 +382,15 @@
 - Concept repo: Enterprise-Semantics/concept-loop-engineering
 - Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
 - Boundary assertions covered: 1
+
+### Mlops (`None`)
+
+- Status: Established
+- Version: 1.0.0
+- Base concept: None
+- Concept repo: None
+- Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
+- Boundary assertions covered: 4
 
 ### Network (`ES:CONCEPT:network`)
 
