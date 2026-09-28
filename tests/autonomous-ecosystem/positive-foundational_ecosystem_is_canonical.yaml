@@ -1,0 +1,11 @@
+id: ES:TEST:auco:positive:01
+test_type: positive
+test_name: foundational ecosystem is canonical
+applies_to_concept: ES:CONCEPT:autonomous-ecosystem
+version: 2.6.0
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+expected_outcome:
+  result: pass
+provenance:
+  decision: [ES-ADR-033]
+  implementation: [CR-ES-033]
