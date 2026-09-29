@@ -1,0 +1,32 @@
+# Kit test file ; Agent ; positive-NN
+# Per ES-ADR-049 + CR-ES-049 (Test Kit Completion slice, 2026-09-30) + ES-ADR-050 + CR-ES-050 (Gap Closure, Slice A).
+# Generated per ES-ADR-031 §4 (5-category taxonomy) where canonical source had no test files.
+# Cardinal author rule: Emmanuel A. Otchere <emmanuel@otchere.com>
+
+id: KIT-AGENT-POS-02
+concept_id: ES:CONCEPT:agent
+test_type: positive
+taxonomy_category: "independence"
+summary: Agent is materially distinct from agentic/autonomous modifiers
+description: |
+  Agent demonstrates independence from the agentic vs autonomous modifier axis. The boundary holds whether the modifier is present or absent.
+  
+  This is POSITIVE test #2 of 5 for Agent, generated to ensure the per-concept test kit satisfies ES-ADR-049 §2.1 (10 conformance tests per concept: 5 positive + 5 negative).
+
+expected_outcome: conformant
+boundary_assertion:
+  - The concept MUST satisfy the independence criterion.
+  - Source authority: ES-ADR-031 §4.
+  - Cardinal author rule preserved.
+
+references:
+  - source: ES-ADR-049
+    note: Per-Concept Repo Self-Containment (2026-09-30)
+  - source: ES-ADR-050
+    note: Gap Closure, Slice A (Test File Mirror, 2026-09-30)
+  - source: ES-ADR-031
+    note: 5-category taxonomy §4
+
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+date: '2026-09-30'
+status: Established

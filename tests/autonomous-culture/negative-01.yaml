@@ -1,0 +1,32 @@
+# Kit test file ; Autonomous Culture ; negative-NN
+# Per ES-ADR-049 + CR-ES-049 (Test Kit Completion slice, 2026-09-30) + ES-ADR-050 + CR-ES-050 (Gap Closure, Slice A).
+# Generated per ES-ADR-031 §4 (5-category taxonomy) where canonical source had no test files.
+# Cardinal author rule: Emmanuel A. Otchere <emmanuel@otchere.com>
+
+id: KIT-AUTONOMOUS-CULTURE-NEG-01
+concept_id: ES:CONCEPT:autonomous-culture
+test_type: negative
+taxonomy_category: "no_specialization"
+summary: No specialization claim without canonical anchor
+description: |
+  Autonomous Culture rejected as a specialization when no canonical base concept is declared or when the specialization claim is vacuous.
+  
+  This is NEGATIVE test #1 of 5 for Autonomous Culture, generated to ensure the per-concept test kit satisfies ES-ADR-049 §2.1 (10 conformance tests per concept: 5 positive + 5 negative).
+
+expected_outcome: non_conformant
+boundary_assertion:
+  - The concept MUST NOT satisfy the no_specialization criterion.
+  - Source authority: ES-ADR-031 §4.
+  - Cardinal author rule preserved.
+
+references:
+  - source: ES-ADR-049
+    note: Per-Concept Repo Self-Containment (2026-09-30)
+  - source: ES-ADR-050
+    note: Gap Closure, Slice A (Test File Mirror, 2026-09-30)
+  - source: ES-ADR-031
+    note: 5-category taxonomy §4
+
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+date: '2026-09-30'
+status: Established
