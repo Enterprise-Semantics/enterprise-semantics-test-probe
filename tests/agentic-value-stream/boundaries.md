@@ -64,7 +64,7 @@ def test_agentic_value_stream_replaces_value_stream_rejected():
     """;; Agentic Value Stream replaces Value Stream must fail"""
     record = {
         'id': 'ES:CONCEPT:agentic-value-stream',
-        'replaces': 'ES:CONCEPT:value-stream',  # ;;; not allowed
+        'replaces': 'ES:CONCEPT:value-stream',  # : not allowed
         # ...
     }
     errors = validate(record)
