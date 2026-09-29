@@ -34,7 +34,7 @@ def test_avs_specialisation_validates(avs_record, vs_record):
     """;; Agentic Value Stream must specialise an existing concept"""
     spec = avs_record.get('specializes')
     assert spec == 'ES:CONCEPT:value-stream'
-    # ;;; the parent must be a real Concept record
+    # : the parent must be a real Concept record
     assert vs_record is not None
     assert vs_record['id'] == 'ES:CONCEPT:value-stream'
 ```

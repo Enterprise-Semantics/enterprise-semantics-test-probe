@@ -29,7 +29,7 @@ Test:
 ```python
 def test_avs_retains_stakeholder_value_realisation(avs_record):
     """;; the avs retains the stakeholder-value realisation semantics per CR-ES-005 §8"""
-    # ;;; Inherited from Value Stream via Profile binding
+    # : Inherited from Value Stream via Profile binding
     rels = avs_record.get('relationships', [])
     assert any(
         r.get('predicate') == 'realizes' and
@@ -47,7 +47,7 @@ identity, not as possible specialisation) MUST be rejected.
 def test_ai_is_a_agentic_value_stream_rejected():
     record = {
         'id': 'ES:CONCEPT:ai-value-stream',
-        'is_a': 'ES:CONCEPT:agentic-value-stream',  # ;;; universal identity
+        'is_a': 'ES:CONCEPT:agentic-value-stream',  # : universal identity
         # ...
     }
     errors = validate(record)

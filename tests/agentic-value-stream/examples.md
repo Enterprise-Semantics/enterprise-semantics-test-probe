@@ -31,7 +31,7 @@ def test_order_to_cash_agentic_demonstrates_all_8_characteristics(example_path):
     with open(example_path) as f:
         data = yaml.safe_load(f)
     demonstrated = {b.split(';;')[-1].strip().split(' ')[0] for b in data.get('boundaries_demonstrated', [])}
-    # ;;; the 8 characteristics are documented in the boundaries section + the relationships section
+    # : the 8 characteristics are documented in the boundaries section + the relationships section
     assert len(demonstrated) >= 7
 
 def test_order_to_cash_agentic_uses_mixed_realization(example_path):
@@ -40,7 +40,7 @@ def test_order_to_cash_agentic_uses_mixed_realization(example_path):
         data = yaml.safe_load(f)
     flow_steps = data['flow']
     modes = {step.get('realization_mode') for step in flow_steps}
-    # ;;; mixed realization ;; at least 2 distinct modes
+    # : mixed realization ;; at least 2 distinct modes
     assert len(modes) >= 2
 
 def test_order_to_cash_agentic_preserves_human_escalation(example_path):
@@ -67,7 +67,7 @@ def test_ai_is_a_agentic_value_stream_universal_identity_rejected():
     """;; AI Value Stream as universal Agentic Value Stream (not as possible specialisation) is rejected"""
     record = {
         'id': 'ES:CONCEPT:ai-value-stream',
-        'is_a': 'ES:CONCEPT:agentic-value-stream',  # ;;; universal identity claim
+        'is_a': 'ES:CONCEPT:agentic-value-stream',  # : universal identity claim
     }
     errors = validate(record)
     assert any('AI is-a Agentic Value Stream' in e for e in errors)

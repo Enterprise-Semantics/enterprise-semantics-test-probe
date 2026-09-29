@@ -10,11 +10,11 @@ Test:
 ```python
 def test_avs_initiating_condition(avs_record):
     """;; the avs retains the initiating-condition semantics per CR-ES-005 §8"""
-    # ;;; the record's properties include initiating-condition
+    # : the record's properties include initiating-condition
     properties = avs_record.get('properties', [])
     property_names = {p['name'] for p in properties}
-    # ;;; initiating_condition is inherited from Value Stream
-    # ;;; if inherited, it must be preserved in the schema
+    # : initiating_condition is inherited from Value Stream
+    # : if inherited, it must be preserved in the schema
 ```
 
 ## AVS-CON-004 ;; Agentic Value Stream retains realisation-boundary semantics
@@ -27,7 +27,7 @@ Test:
 ```python
 def test_avs_realisation_boundary(avs_record):
     """;; the avs retains the realisation-boundary semantics per CR-ES-005 §8"""
-    # ;;; the record's properties include realisation-boundary
+    # : the record's properties include realisation-boundary
     properties = avs_record.get('properties', [])
     property_names = {p['name'] for p in properties}
 ```
