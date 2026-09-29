@@ -1,0 +1,21 @@
+id: ES:TEST:autonomous-product:positive:03
+test_type: positive
+test_name: four_state_matrix_independence
+applies_to_concept: ES:CONCEPT:autonomous-product
+concept_canonical_name: Autonomous Product
+base_concept: WSF:PRODUCT
+version: 2.0.0
+date: 2026-09-30
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+rationale: |
+  Four-state matrix (canonical/agentic/autonomous/agentic-autonomous) preserves independence per ES-ADR-031 §6.
+expected_outcome:
+  result: pass
+  boundary_evidence: |
+    Per ES-ADR-001 §4-§8 and ES-ADR-031 §5-§6: a positive instance of this concept MUST
+    satisfy the four_state_matrix_independence invariant.
+provenance:
+  decision: [ES-ADR-049]
+  implementation: [CR-ES-049]
+  structure: [ES-ADR-030, ES-CR-030]
