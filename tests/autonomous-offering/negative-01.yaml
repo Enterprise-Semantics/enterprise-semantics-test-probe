@@ -1,0 +1,21 @@
+id: ES:TEST:autonomous-offering:negative:01
+test_type: negative
+test_name: canonical_redefinition_rejected
+applies_to_concept: ES:CONCEPT:autonomous-offering
+concept_canonical_name: Autonomous Offering
+base_concept: WSF:OFFERING
+version: 2.0.0
+date: 2026-09-30
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+rationale: |
+  Redefining the canonical concept is rejected per ES-ADR-001 §4.
+expected_outcome:
+  result: reject
+  boundary_evidence: |
+    Per ES-ADR-001 §4-§5 and ES-ADR-031 §7-§9: an instance failing the canonical_redefinition_rejected invariant
+    MUST NOT be conformant.
+provenance:
+  decision: [ES-ADR-049]
+  implementation: [CR-ES-049]
+  structure: [ES-ADR-030, ES-CR-030]

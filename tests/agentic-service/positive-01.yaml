@@ -1,0 +1,21 @@
+id: ES:TEST:agentic-service:positive:01
+test_type: positive
+test_name: foundational_reference_or_specialization
+applies_to_concept: ES:CONCEPT:agentic-service
+concept_canonical_name: Agentic Service
+base_concept: WSF:SERVICE
+version: 2.0.0
+date: 2026-09-30
+author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
+governance: enterprise-semantics
+rationale: |
+  Concept admits foundational reference or specialization forms per ES-ADR-001 §4.
+expected_outcome:
+  result: pass
+  boundary_evidence: |
+    Per ES-ADR-001 §4-§8 and ES-ADR-031 §5-§6: a positive instance of this concept MUST
+    satisfy the foundational_reference_or_specialization invariant.
+provenance:
+  decision: [ES-ADR-049]
+  implementation: [CR-ES-049]
+  structure: [ES-ADR-030, ES-CR-030]
