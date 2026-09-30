@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-offering
+- Concept repo: Enterprise-Semantics/offering
 - Test path: tests/offering/
 - Test source branch: main
 

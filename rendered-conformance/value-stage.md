@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-value-stage
+- Concept repo: Enterprise-Semantics/value-stage
 - Test path: tests/value-stage/
 - Test source branch: main
 

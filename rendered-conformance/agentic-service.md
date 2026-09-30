@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:service
 - Status: established
 - Version: 1.3.0
-- Concept repo: Enterprise-Semantics/concept-agentic-service
+- Concept repo: Enterprise-Semantics/agentic-service
 - Test path: tests/agentic-service/
 - Test source branch: docs/cr-es-014-vs-d2a-agentic-service-tests
 

@@ -6,7 +6,7 @@
 - Base concept: WSF:CULTURE
 - Status: established
 - Version: 2.1.0
-- Concept repo: Enterprise-Semantics/concept-agentic-culture
+- Concept repo: Enterprise-Semantics/agentic-culture
 - Test path: tests/agentic-culture/
 - Test source branch: docs/cr-es-023-vs-d2a-agentic-culture-tests
 

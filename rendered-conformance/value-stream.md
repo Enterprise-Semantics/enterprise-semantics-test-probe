@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-value-stream
+- Concept repo: Enterprise-Semantics/value-stream
 - Test path: tests/value-stream/
 - Test source branch: main
 

@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-authority
+- Concept repo: Enterprise-Semantics/authority
 - Test path: tests/authority/
 - Test source branch: main
 

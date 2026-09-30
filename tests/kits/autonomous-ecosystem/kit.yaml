@@ -7,7 +7,7 @@ version: 2.6.0
 date: 2026-09-27
 author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
 governance: enterprise-semantics
-concept_repo: Enterprise-Semantics/concept-autonomous-ecosystem
+concept_repo: Enterprise-Semantics/autonomous-ecosystem
 coverage:
   positive: 6
   negative: 4

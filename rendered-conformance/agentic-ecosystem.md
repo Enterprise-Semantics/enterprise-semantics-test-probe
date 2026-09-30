@@ -6,7 +6,7 @@
 - Base concept: WSF:ECOSYSTEM
 - Status: established
 - Version: 2.5.0
-- Concept repo: Enterprise-Semantics/concept-agentic-ecosystem
+- Concept repo: Enterprise-Semantics/agentic-ecosystem
 - Test path: tests/agentic-ecosystem/
 - Test source branch: docs/cr-es-029-vs-d2a-agentic-ecosystem-tests
 

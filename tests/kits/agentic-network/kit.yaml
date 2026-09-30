@@ -7,7 +7,7 @@ version: 2.7.0
 date: 2026-09-28
 author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
 governance: enterprise-semantics
-concept_repo: Enterprise-Semantics/concept-agentic-network
+concept_repo: Enterprise-Semantics/agentic-network
 coverage:
   positive: 5
   negative: 5

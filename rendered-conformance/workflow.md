@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-workflow
+- Concept repo: Enterprise-Semantics/workflow
 - Test path: tests/workflow/
 - Test source branch: main
 

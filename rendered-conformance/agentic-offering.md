@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:offering
 - Status: established
 - Version: 1.7.0
-- Concept repo: Enterprise-Semantics/concept-agentic-offering
+- Concept repo: Enterprise-Semantics/agentic-offering
 - Test path: tests/agentic-offering/
 - Test source branch: docs/cr-es-018-vs-d2a-agentic-offering-tests
 

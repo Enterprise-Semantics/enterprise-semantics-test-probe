@@ -6,7 +6,7 @@
 - Base concept: WSF:SYSTEM
 - Status: established
 - Version: 2.4.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-system
+- Concept repo: Enterprise-Semantics/autonomous-system
 - Test path: tests/autonomous-system/
 - Test source branch: docs/cr-es-028-vs-d2a-autonomous-system-tests
 

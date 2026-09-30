@@ -8,7 +8,7 @@ date: 2026-09-26
 author: Emmanuel A. Otchere (cardinal author rule, 2026-09-24)
 governance: enterprise-semantics
 
-concept_repo: Enterprise-Semantics/concept-agentic-system
+concept_repo: Enterprise-Semantics/agentic-system
 
 coverage:
   positive: 21

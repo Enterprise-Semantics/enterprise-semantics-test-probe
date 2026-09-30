@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:offering
 - Status: established
 - Version: 1.0.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-offering
+- Concept repo: Enterprise-Semantics/autonomous-offering
 - Test path: tests/autonomous-offering/
 - Test source branch: docs/cr-es-019-vs-d2a-autonomous-offering-tests
 

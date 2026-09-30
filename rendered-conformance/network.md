@@ -6,7 +6,7 @@
 - Base concept: WSF:NETWORK
 - Status: Established
 - Version: 2.7.0
-- Concept repo: Enterprise-Semantics/concept-network
+- Concept repo: Enterprise-Semantics/network
 - Test path: tests/network/
 - Test source branch: main
 

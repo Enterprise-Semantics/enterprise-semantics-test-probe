@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-operations
+- Concept repo: Enterprise-Semantics/operations
 - Test path: tests/operations/
 - Test source branch: main
 

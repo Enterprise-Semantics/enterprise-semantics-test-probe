@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:organization
 - Status: established
 - Version: 2.0.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-organization
+- Concept repo: Enterprise-Semantics/autonomous-organization
 - Test path: tests/autonomous-organization/
 - Test source branch: docs/cr-es-021-vs-d2a-autonomous-organization-tests
 

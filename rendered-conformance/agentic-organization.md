@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:organization
 - Status: established
 - Version: 1.0.0
-- Concept repo: Enterprise-Semantics/concept-agentic-organization
+- Concept repo: Enterprise-Semantics/agentic-organization
 - Test path: tests/agentic-organization/
 - Test source branch: docs/cr-es-020-vs-d2a-agentic-organization-tests
 

@@ -6,7 +6,7 @@
 - Base concept: WSF:NETWORK
 - Status: Established
 - Version: 2.8.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-network
+- Concept repo: Enterprise-Semantics/autonomous-network
 - Test path: tests/autonomous-network/
 - Test source branch: main
 

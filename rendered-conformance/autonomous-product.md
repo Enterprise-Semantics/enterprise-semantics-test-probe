@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:product
 - Status: established
 - Version: 1.6.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-product
+- Concept repo: Enterprise-Semantics/autonomous-product
 - Test path: tests/autonomous-product/
 - Test source branch: docs/cr-es-017-vs-d2a-autonomous-product-tests
 

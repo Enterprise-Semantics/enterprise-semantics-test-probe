@@ -6,7 +6,7 @@
 - Base concept: WSF:ECOSYSTEM
 - Status: established
 - Version: 2.6.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-ecosystem
+- Concept repo: Enterprise-Semantics/autonomous-ecosystem
 - Test path: tests/autonomous-ecosystem/
 - Test source branch: main
 

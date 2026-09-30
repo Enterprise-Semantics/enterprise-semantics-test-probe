@@ -6,7 +6,7 @@
 - Base concept: WSF:CULTURE
 - Status: established
 - Version: 2.1.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-culture
+- Concept repo: Enterprise-Semantics/autonomous-culture
 - Test path: tests/autonomous-culture/
 - Test source branch: docs/cr-es-024-vs-d2a-autonomous-culture-tests
 

@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-culture
+- Concept repo: Enterprise-Semantics/culture
 - Test path: tests/culture/
 - Test source branch: main
 

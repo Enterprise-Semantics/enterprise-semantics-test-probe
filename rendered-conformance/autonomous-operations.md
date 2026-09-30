@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:operations
 - Status: established
 - Version: 0.7.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-operations
+- Concept repo: Enterprise-Semantics/autonomous-operations
 - Test path: tests/autonomous-operations/
 - Test source branch: docs/cr-es-008-vs-d-autonomous-operations-tests
 

@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:operations
 - Status: established
 - Version: 0.6.0
-- Concept repo: Enterprise-Semantics/concept-agentic-operations
+- Concept repo: Enterprise-Semantics/agentic-operations
 - Test path: tests/agentic-operations/
 - Test source branch: docs/cr-es-007-vs-d-agentic-operations-tests
 

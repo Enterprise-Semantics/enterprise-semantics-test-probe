@@ -6,7 +6,7 @@
 - Base concept: WSF:SYSTEM
 - Status: established
 - Version: 2.3.0
-- Concept repo: Enterprise-Semantics/concept-agentic-system
+- Concept repo: Enterprise-Semantics/agentic-system
 - Test path: tests/agentic-system/
 - Test source branch: docs/cr-es-025-vs-d2a-agentic-system-tests
 

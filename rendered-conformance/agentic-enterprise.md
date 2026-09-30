@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:enterprise
 - Status: established
 - Version: 0.1.0
-- Concept repo: Enterprise-Semantics/concept-agentic-enterprise
+- Concept repo: Enterprise-Semantics/agentic-enterprise
 - Test path: tests/agentic-enterprise/
 - Test source branch: docs/cr-es-010-vs-d2-agentic-enterprise-tests
 

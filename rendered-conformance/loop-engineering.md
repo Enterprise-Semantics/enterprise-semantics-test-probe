@@ -6,7 +6,7 @@
 - Base concept: None
 - Status: Established
 - Version: 2.9.0
-- Concept repo: Enterprise-Semantics/concept-loop-engineering
+- Concept repo: Enterprise-Semantics/loop-engineering
 - Test path: tests/loop-engineering/
 - Test source branch: main
 

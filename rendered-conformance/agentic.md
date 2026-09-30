@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-agentic
+- Concept repo: Enterprise-Semantics/agentic
 - Test path: tests/agentic/
 - Test source branch: main
 

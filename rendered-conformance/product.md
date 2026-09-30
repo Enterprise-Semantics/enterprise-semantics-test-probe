@@ -6,7 +6,7 @@
 - Base concept: WSF:PRODUCT
 - Status: established
 - Version: 1.0.0
-- Concept repo: Enterprise-Semantics/concept-product
+- Concept repo: Enterprise-Semantics/product
 - Test path: tests/product/
 - Test source branch: main
 

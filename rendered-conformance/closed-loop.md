@@ -6,7 +6,7 @@
 - Base concept: WSF:CLOSED_LOOP
 - Status: Established
 - Version: 2.10.0
-- Concept repo: Enterprise-Semantics/concept-closed-loop
+- Concept repo: Enterprise-Semantics/closed-loop
 - Test path: tests/closed-loop/
 - Test source branch: main
 

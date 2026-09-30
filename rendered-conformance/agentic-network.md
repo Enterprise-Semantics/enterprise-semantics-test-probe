@@ -6,7 +6,7 @@
 - Base concept: WSF:NETWORK
 - Status: Established
 - Version: 2.7.0
-- Concept repo: Enterprise-Semantics/concept-agentic-network
+- Concept repo: Enterprise-Semantics/agentic-network
 - Test path: tests/agentic-network/
 - Test source branch: main
 

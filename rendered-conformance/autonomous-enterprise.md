@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:enterprise
 - Status: established
 - Version: 1.0.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-enterprise
+- Concept repo: Enterprise-Semantics/autonomous-enterprise
 - Test path: tests/autonomous-enterprise/
 - Test source branch: docs/cr-es-011-vs-d2-autonomous-enterprise-tests
 

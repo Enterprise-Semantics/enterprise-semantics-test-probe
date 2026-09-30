@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:capability
 - Status: established
 - Version: 1.2.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-capability
+- Concept repo: Enterprise-Semantics/autonomous-capability
 - Test path: tests/autonomous-capability/
 - Test source branch: docs/cr-es-013-vs-d2a-autonomous-capability-tests
 

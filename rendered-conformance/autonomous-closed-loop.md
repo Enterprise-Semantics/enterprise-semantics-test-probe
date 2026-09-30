@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:closed-loop
 - Status: Established
 - Version: 2.11.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-closed-loop
+- Concept repo: Enterprise-Semantics/autonomous-closed-loop
 - Test path: tests/autonomous-closed-loop/
 - Test source branch: main
 

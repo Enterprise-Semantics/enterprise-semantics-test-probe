@@ -6,7 +6,7 @@
 - Base concept: WSF:SERVICE
 - Status: established
 - Version: 1.0.0
-- Concept repo: Enterprise-Semantics/concept-service
+- Concept repo: Enterprise-Semantics/service
 - Test path: tests/service/
 - Test source branch: main
 

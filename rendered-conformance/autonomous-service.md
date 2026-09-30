@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:service
 - Status: established
 - Version: 1.4.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-service
+- Concept repo: Enterprise-Semantics/autonomous-service
 - Test path: tests/autonomous-service/
 - Test source branch: docs/cr-es-015-vs-d2a-autonomous-service-tests
 

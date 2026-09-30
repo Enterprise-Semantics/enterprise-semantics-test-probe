@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:value-stream
 - Status: established
 - Version: 0.8.0
-- Concept repo: Enterprise-Semantics/concept-autonomous-value-stream
+- Concept repo: Enterprise-Semantics/autonomous-value-stream
 - Test path: tests/autonomous-value-stream/
 - Test source branch: docs/cr-es-009-vs-d-autonomous-value-stream-tests
 

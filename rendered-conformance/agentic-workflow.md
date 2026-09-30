@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:workflow
 - Status: established
 - Version: 0.5.0
-- Concept repo: Enterprise-Semantics/concept-agentic-workflow
+- Concept repo: Enterprise-Semantics/agentic-workflow
 - Test path: tests/agentic-workflow/
 - Test source branch: docs/cr-es-006-vs-d-agentic-workflow-tests
 

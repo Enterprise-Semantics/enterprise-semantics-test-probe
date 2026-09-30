@@ -10,7 +10,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-action
+- Concept repo: Enterprise-Semantics/action
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -19,7 +19,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-agent
+- Concept repo: Enterprise-Semantics/agent
 - Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
 - Boundary assertions covered: 0
 
@@ -28,7 +28,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-agentic
+- Concept repo: Enterprise-Semantics/agentic
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -46,7 +46,7 @@
 - Status: established
 - Version: 1.1.0
 - Base concept: ES:CONCEPT:capability
-- Concept repo: Enterprise-Semantics/concept-agentic-capability
+- Concept repo: Enterprise-Semantics/agentic-capability
 - Tests: 12 (positive 0 ; negative 1 ; integrity 0 ; other 11)
 - Boundary assertions covered: 3
 
@@ -55,7 +55,7 @@
 - Status: established
 - Version: 2.1.0
 - Base concept: WSF:CULTURE
-- Concept repo: Enterprise-Semantics/concept-agentic-culture
+- Concept repo: Enterprise-Semantics/agentic-culture
 - Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 5
 
@@ -64,7 +64,7 @@
 - Status: established
 - Version: 2.5.0
 - Base concept: WSF:ECOSYSTEM
-- Concept repo: Enterprise-Semantics/concept-agentic-ecosystem
+- Concept repo: Enterprise-Semantics/agentic-ecosystem
 - Tests: 13 (positive 7 ; negative 6 ; integrity 0 ; other 0)
 - Boundary assertions covered: 6
 
@@ -73,7 +73,7 @@
 - Status: established
 - Version: 0.1.0
 - Base concept: ES:CONCEPT:enterprise
-- Concept repo: Enterprise-Semantics/concept-agentic-enterprise
+- Concept repo: Enterprise-Semantics/agentic-enterprise
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
 - Boundary assertions covered: 3
 
@@ -82,7 +82,7 @@
 - Status: Established
 - Version: 2.7.0
 - Base concept: WSF:NETWORK
-- Concept repo: Enterprise-Semantics/concept-agentic-network
+- Concept repo: Enterprise-Semantics/agentic-network
 - Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
 - Boundary assertions covered: 1
 
@@ -91,7 +91,7 @@
 - Status: established
 - Version: 1.7.0
 - Base concept: ES:CONCEPT:offering
-- Concept repo: Enterprise-Semantics/concept-agentic-offering
+- Concept repo: Enterprise-Semantics/agentic-offering
 - Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
@@ -100,7 +100,7 @@
 - Status: established
 - Version: 0.6.0
 - Base concept: ES:CONCEPT:operations
-- Concept repo: Enterprise-Semantics/concept-agentic-operations
+- Concept repo: Enterprise-Semantics/agentic-operations
 - Tests: 9 (positive 0 ; negative 0 ; integrity 0 ; other 9)
 - Boundary assertions covered: 3
 
@@ -109,7 +109,7 @@
 - Status: established
 - Version: 1.0.0
 - Base concept: ES:CONCEPT:organization
-- Concept repo: Enterprise-Semantics/concept-agentic-organization
+- Concept repo: Enterprise-Semantics/agentic-organization
 - Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
@@ -118,7 +118,7 @@
 - Status: established
 - Version: 1.5.0
 - Base concept: ES:CONCEPT:product
-- Concept repo: Enterprise-Semantics/concept-agentic-product
+- Concept repo: Enterprise-Semantics/agentic-product
 - Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
@@ -127,7 +127,7 @@
 - Status: established
 - Version: 1.3.0
 - Base concept: ES:CONCEPT:service
-- Concept repo: Enterprise-Semantics/concept-agentic-service
+- Concept repo: Enterprise-Semantics/agentic-service
 - Tests: 34 (positive 19 ; negative 0 ; integrity 0 ; other 15)
 - Boundary assertions covered: 3
 
@@ -136,7 +136,7 @@
 - Status: established
 - Version: 2.3.0
 - Base concept: WSF:SYSTEM
-- Concept repo: Enterprise-Semantics/concept-agentic-system
+- Concept repo: Enterprise-Semantics/agentic-system
 - Tests: 39 (positive 21 ; negative 0 ; integrity 0 ; other 18)
 - Boundary assertions covered: 4
 
@@ -145,7 +145,7 @@
 - Status: established
 - Version: 0.4.0
 - Base concept: ES:CONCEPT:value-stream
-- Concept repo: Enterprise-Semantics/concept-agentic-value-stream
+- Concept repo: Enterprise-Semantics/agentic-value-stream
 - Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
 - Boundary assertions covered: 3
 
@@ -154,7 +154,7 @@
 - Status: established
 - Version: 0.5.0
 - Base concept: ES:CONCEPT:workflow
-- Concept repo: Enterprise-Semantics/concept-agentic-workflow
+- Concept repo: Enterprise-Semantics/agentic-workflow
 - Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
 - Boundary assertions covered: 3
 
@@ -199,7 +199,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-authority
+- Concept repo: Enterprise-Semantics/authority
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -208,7 +208,7 @@
 - Status: established
 - Version: 1.2.0
 - Base concept: ES:CONCEPT:capability
-- Concept repo: Enterprise-Semantics/concept-autonomous-capability
+- Concept repo: Enterprise-Semantics/autonomous-capability
 - Tests: 32 (positive 18 ; negative 0 ; integrity 0 ; other 14)
 - Boundary assertions covered: 3
 
@@ -217,7 +217,7 @@
 - Status: Established
 - Version: 2.11.0
 - Base concept: ES:CONCEPT:closed-loop
-- Concept repo: Enterprise-Semantics/concept-autonomous-closed-loop
+- Concept repo: Enterprise-Semantics/autonomous-closed-loop
 - Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
 - Boundary assertions covered: 1
 
@@ -226,7 +226,7 @@
 - Status: established
 - Version: 2.1.0
 - Base concept: WSF:CULTURE
-- Concept repo: Enterprise-Semantics/concept-autonomous-culture
+- Concept repo: Enterprise-Semantics/autonomous-culture
 - Tests: 38 (positive 21 ; negative 0 ; integrity 0 ; other 17)
 - Boundary assertions covered: 4
 
@@ -235,7 +235,7 @@
 - Status: established
 - Version: 2.6.0
 - Base concept: WSF:ECOSYSTEM
-- Concept repo: Enterprise-Semantics/concept-autonomous-ecosystem
+- Concept repo: Enterprise-Semantics/autonomous-ecosystem
 - Tests: 10 (positive 6 ; negative 4 ; integrity 0 ; other 0)
 - Boundary assertions covered: 5
 
@@ -244,7 +244,7 @@
 - Status: established
 - Version: 1.0.0
 - Base concept: ES:CONCEPT:enterprise
-- Concept repo: Enterprise-Semantics/concept-autonomous-enterprise
+- Concept repo: Enterprise-Semantics/autonomous-enterprise
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
 - Boundary assertions covered: 3
 
@@ -253,7 +253,7 @@
 - Status: Established
 - Version: 2.8.0
 - Base concept: WSF:NETWORK
-- Concept repo: Enterprise-Semantics/concept-autonomous-network
+- Concept repo: Enterprise-Semantics/autonomous-network
 - Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
 - Boundary assertions covered: 1
 
@@ -262,7 +262,7 @@
 - Status: established
 - Version: 1.0.0
 - Base concept: ES:CONCEPT:offering
-- Concept repo: Enterprise-Semantics/concept-autonomous-offering
+- Concept repo: Enterprise-Semantics/autonomous-offering
 - Tests: 38 (positive 21 ; negative 0 ; integrity 0 ; other 17)
 - Boundary assertions covered: 3
 
@@ -271,7 +271,7 @@
 - Status: established
 - Version: 0.7.0
 - Base concept: ES:CONCEPT:operations
-- Concept repo: Enterprise-Semantics/concept-autonomous-operations
+- Concept repo: Enterprise-Semantics/autonomous-operations
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
 - Boundary assertions covered: 3
 
@@ -280,7 +280,7 @@
 - Status: established
 - Version: 2.0.0
 - Base concept: ES:CONCEPT:organization
-- Concept repo: Enterprise-Semantics/concept-autonomous-organization
+- Concept repo: Enterprise-Semantics/autonomous-organization
 - Tests: 37 (positive 21 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
@@ -289,7 +289,7 @@
 - Status: established
 - Version: 1.6.0
 - Base concept: ES:CONCEPT:product
-- Concept repo: Enterprise-Semantics/concept-autonomous-product
+- Concept repo: Enterprise-Semantics/autonomous-product
 - Tests: 37 (positive 21 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
@@ -298,7 +298,7 @@
 - Status: established
 - Version: 1.4.0
 - Base concept: ES:CONCEPT:service
-- Concept repo: Enterprise-Semantics/concept-autonomous-service
+- Concept repo: Enterprise-Semantics/autonomous-service
 - Tests: 36 (positive 20 ; negative 0 ; integrity 0 ; other 16)
 - Boundary assertions covered: 3
 
@@ -307,7 +307,7 @@
 - Status: established
 - Version: 2.4.0
 - Base concept: WSF:SYSTEM
-- Concept repo: Enterprise-Semantics/concept-autonomous-system
+- Concept repo: Enterprise-Semantics/autonomous-system
 - Tests: 31 (positive 0 ; negative 0 ; integrity 0 ; other 31)
 - Boundary assertions covered: 4
 
@@ -316,7 +316,7 @@
 - Status: established
 - Version: 0.8.0
 - Base concept: ES:CONCEPT:value-stream
-- Concept repo: Enterprise-Semantics/concept-autonomous-value-stream
+- Concept repo: Enterprise-Semantics/autonomous-value-stream
 - Tests: 9 (positive 0 ; negative 0 ; integrity 1 ; other 8)
 - Boundary assertions covered: 4
 
@@ -325,7 +325,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-capability
+- Concept repo: Enterprise-Semantics/capability
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -334,7 +334,7 @@
 - Status: Established
 - Version: 2.10.0
 - Base concept: WSF:CLOSED_LOOP
-- Concept repo: Enterprise-Semantics/concept-closed-loop
+- Concept repo: Enterprise-Semantics/closed-loop
 - Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
 - Boundary assertions covered: 1
 
@@ -343,7 +343,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-culture
+- Concept repo: Enterprise-Semantics/culture
 - Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
 - Boundary assertions covered: 0
 
@@ -352,7 +352,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-enterprise
+- Concept repo: Enterprise-Semantics/enterprise
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -361,7 +361,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-flow
+- Concept repo: Enterprise-Semantics/flow
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -370,7 +370,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-intent
+- Concept repo: Enterprise-Semantics/intent
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -379,7 +379,7 @@
 - Status: Established
 - Version: 2.9.0
 - Base concept: None
-- Concept repo: Enterprise-Semantics/concept-loop-engineering
+- Concept repo: Enterprise-Semantics/loop-engineering
 - Tests: 10 (positive 5 ; negative 5 ; integrity 0 ; other 0)
 - Boundary assertions covered: 1
 
@@ -397,7 +397,7 @@
 - Status: Established
 - Version: 2.7.0
 - Base concept: WSF:NETWORK
-- Concept repo: Enterprise-Semantics/concept-network
+- Concept repo: Enterprise-Semantics/network
 - Tests: 9 (positive 5 ; negative 4 ; integrity 0 ; other 0)
 - Boundary assertions covered: 3
 
@@ -406,7 +406,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-offering
+- Concept repo: Enterprise-Semantics/offering
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -415,7 +415,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-operations
+- Concept repo: Enterprise-Semantics/operations
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -424,7 +424,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-organization
+- Concept repo: Enterprise-Semantics/organization
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -433,7 +433,7 @@
 - Status: established
 - Version: 1.0.0
 - Base concept: WSF:PRODUCT
-- Concept repo: Enterprise-Semantics/concept-product
+- Concept repo: Enterprise-Semantics/product
 - Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
 - Boundary assertions covered: 2
 
@@ -442,7 +442,7 @@
 - Status: established
 - Version: 1.0.0
 - Base concept: WSF:SERVICE
-- Concept repo: Enterprise-Semantics/concept-service
+- Concept repo: Enterprise-Semantics/service
 - Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
 - Boundary assertions covered: 2
 
@@ -451,7 +451,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-system
+- Concept repo: Enterprise-Semantics/system
 - Tests: 0 (positive 0 ; negative 0 ; integrity 0 ; other 0)
 - Boundary assertions covered: 0
 
@@ -460,7 +460,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-value-stage
+- Concept repo: Enterprise-Semantics/value-stage
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 
@@ -469,7 +469,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-value-stream
+- Concept repo: Enterprise-Semantics/value-stream
 - Tests: 8 (positive 0 ; negative 0 ; integrity 0 ; other 8)
 - Boundary assertions covered: 0
 
@@ -478,7 +478,7 @@
 - Status: established
 - Version: see concept.yaml
 - Base concept: primitive
-- Concept repo: Enterprise-Semantics/concept-workflow
+- Concept repo: Enterprise-Semantics/workflow
 - Tests: 2 (positive 0 ; negative 0 ; integrity 0 ; other 2)
 - Boundary assertions covered: 0
 

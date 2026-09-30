@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:capability
 - Status: established
 - Version: 1.1.0
-- Concept repo: Enterprise-Semantics/concept-agentic-capability
+- Concept repo: Enterprise-Semantics/agentic-capability
 - Test path: tests/agentic-capability/
 - Test source branch: docs/cr-es-012-vs-d2a-agentic-capability-tests
 

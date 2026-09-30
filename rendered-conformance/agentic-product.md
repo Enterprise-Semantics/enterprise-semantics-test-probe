@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:product
 - Status: established
 - Version: 1.5.0
-- Concept repo: Enterprise-Semantics/concept-agentic-product
+- Concept repo: Enterprise-Semantics/agentic-product
 - Test path: tests/agentic-product/
 - Test source branch: docs/cr-es-016-vs-d2a-agentic-product-tests
 

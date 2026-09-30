@@ -6,7 +6,7 @@
 - Base concept: primitive
 - Status: established
 - Version: see concept.yaml
-- Concept repo: Enterprise-Semantics/concept-flow
+- Concept repo: Enterprise-Semantics/flow
 - Test path: tests/flow/
 - Test source branch: main
 

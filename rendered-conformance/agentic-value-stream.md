@@ -6,7 +6,7 @@
 - Base concept: ES:CONCEPT:value-stream
 - Status: established
 - Version: 0.4.0
-- Concept repo: Enterprise-Semantics/concept-agentic-value-stream
+- Concept repo: Enterprise-Semantics/agentic-value-stream
 - Test path: tests/agentic-value-stream/
 - Test source branch: docs/cr-es-005-vs-d-agentic-value-stream-tests
 
