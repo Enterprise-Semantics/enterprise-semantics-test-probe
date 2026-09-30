@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""validate.py ;;; Enterprise-Semantics conformance gate.
+"""validate.py, Enterprise-Semantics conformance gate.
 
 Phase 5 (PLAN §Phase 5.1-5.2): this harness is the CI gate applied to
 enterprise-semantics and enterprise-semantics-mappings. It does NOT duplicate
